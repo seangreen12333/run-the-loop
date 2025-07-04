@@ -1,0 +1,35 @@
+.main {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
+  text-align: center;
+}
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.cta {
+  background: #00a86b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.about, .photos {
+  margin-top: 3rem;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+}
