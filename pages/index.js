@@ -132,6 +132,62 @@ export default function Home() {
     <strong>Time:</strong> First race starts at 6:30 PM
   </p>
 </section>
+
+  {/* Course Records Section */}
+<section className="bg-white py-20 px-6 max-w-7xl mx-auto text-center">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] border-b-4 border-lime-500 inline-block pb-2 mb-10">
+    Course Records
+  </h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <img src="/record1.jpg" alt="Male Record" className="w-full rounded shadow-md" />
+    <img src="/record2.jpg" alt="Female Record" className="w-full rounded shadow-md" />
+  </div>
+</section>
+
+  {/* Sponsors and Partners Section */}
+<section className="bg-gray-50 py-20 px-6">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] text-center border-b-4 border-lime-500 inline-block pb-2 mb-10">
+    Sponsors & Partners
+  </h2>
+  <div className="overflow-hidden">
+    <div className="flex animate-scroll-x space-x-10">
+      <img src="/sponsor1.png" alt="Sponsor 1" className="h-16 object-contain" />
+      <img src="/sponsor2.png" alt="Sponsor 2" className="h-16 object-contain" />
+      <img src="/sponsor3.png" alt="Sponsor 3" className="h-16 object-contain" />
+      <img src="/sponsor4.png" alt="Sponsor 4" className="h-16 object-contain" />
+      <img src="/sponsor5.png" alt="Sponsor 5" className="h-16 object-contain" />
+    </div>
+  </div>
+</section>
+
+  {/* Footer */}
+<footer className="bg-[#102A43] text-white py-12 px-6">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
+    
+    {/* Logo */}
+    <div className="flex justify-center md:justify-start">
+      <img src="/logo_cropped.png" alt="Run The Loop Logo" className="h-20" />
+    </div>
+
+    {/* Contact Info */}
+    <div className="text-center md:text-left">
+      <h3 className="text-lime-400 text-xl font-bold mb-2">Contact Us</h3>
+      <p>athletics@adelaideunisport.com.au</p>
+      <p>0000 000 000</p>
+    </div>
+
+    {/* Social Links */}
+    <div className="flex justify-center md:justify-end space-x-6">
+      <a href="https://www.facebook.com/profile.php?id=61572122634418" target="_blank" rel="noopener noreferrer">
+        <img src="/facebook-icon.png" alt="Facebook" className="h-8" />
+      </a>
+      <a href="https://www.instagram.com/run_the_loop/" target="_blank" rel="noopener noreferrer">
+        <img src="/instagram-icon.png" alt="Instagram" className="h-8" />
+      </a>
+    </div>
+  </div>
+</footer>
+
     </>
   );
 }
