@@ -181,7 +181,7 @@ export default function Home() {
     <div className="text-center md:text-left">
       <h3 className="text-lime-400 text-xl font-bold mb-2">Contact Us</h3>
       <p>athletics@adelaideunisport.com.au</p>
-      <p>0000 000 000</p>
+      <p>0497 563 990</p>
     </div>
 
     {/* Social Links */}
