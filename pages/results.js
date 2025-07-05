@@ -6,8 +6,8 @@ import Image from 'next/image';
 export default function ResultsPage() {
   return (
     <>
-
-    <header className="relative z-10 flex items-center justify-between px-6 py-4">
+  <header className="bg-[#102A43] text-white flex items-center justify-between px-6 py-4">
+  <header className="relative z-10 flex items-center justify-between px-6 py-4">
   <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
   <nav className="space-x-6 text-white font-semibold text-lg">
     <a href="#">Elite Races</a>
