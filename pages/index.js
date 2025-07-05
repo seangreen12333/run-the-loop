@@ -128,11 +128,14 @@ export default function Home() {
 
   {/* CTA Button */}
     <a
-      href="#"
-      className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
-    >
-      View Full Map
-    </a>
+  href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A"  // Replace with your actual URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
+>
+  Location
+</a>
+
 </section>
 
   {/* Course Records Section */}
