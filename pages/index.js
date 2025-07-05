@@ -145,20 +145,22 @@ export default function Home() {
 </section>
 
   {/* Sponsors and Partners Section */}
-<section className="bg-gray-50 py-20 px-6">
-  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] text-center border-b-4 border-lime-500 inline-block pb-2 mb-10">
+{/* Sponsors Section */}
+<section className="bg-gray-100 py-20 px-4 w-full">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">
     Sponsors & Partners
   </h2>
-  <div className="overflow-hidden">
-    <div className="flex animate-scroll-x space-x-10">
-      <img src="/sponsor1.png" alt="Sponsor 1" className="h-16 object-contain" />
-      <img src="/sponsor2.png" alt="Sponsor 2" className="h-16 object-contain" />
-      <img src="/sponsor3.png" alt="Sponsor 3" className="h-16 object-contain" />
-      <img src="/sponsor4.png" alt="Sponsor 4" className="h-16 object-contain" />
-      <img src="/sponsor5.png" alt="Sponsor 5" className="h-16 object-contain" />
+  <div className="overflow-hidden relative">
+    <div className="flex space-x-10 animate-scroll-x w-max">
+      <img src="/sponsor1.png" alt="Sponsor 1" className="h-20 w-auto" />
+      <img src="/sponsor2.png" alt="Sponsor 2" className="h-20 w-auto" />
+      <img src="/sponsor3.png" alt="Sponsor 3" className="h-20 w-auto" />
+      <img src="/sponsor4.png" alt="Sponsor 4" className="h-20 w-auto" />
+      <img src="/sponsor5.png" alt="Sponsor 5" className="h-20 w-auto" />
     </div>
   </div>
 </section>
+
 
   {/* Footer */}
 <footer className="bg-[#102A43] text-white py-12 px-6">
