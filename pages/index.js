@@ -17,7 +17,6 @@ export default function Home() {
       <a href="#" className="hover:text-[#00B28A]">Seeded Races</a>
       <a href="#" className="hover:text-[#00B28A]">Masters Race</a>
       <a href="#" className="hover:text-[#00B28A]">Junior Race</a>
-      <a href="#" className="hover:text-[#00B28A]">2025 Highlights</a>
       <a href="#" className="hover:text-[#00B28A]">Results</a>
     </nav>
   </header>
