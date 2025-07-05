@@ -1,17 +1,18 @@
 // components/Header.js
+
 export default function Header() {
   return (
     <header className="bg-[#102A43] text-white flex items-center justify-between px-6 py-4">
       <a href="https://www.runtheloop.org/">
-        <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12 hover:opacity-80 transition-opacity duration-200" />
+        <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
       </a>
       <nav className="space-x-6 text-white font-semibold text-lg">
-        <a href="#">Elite Races</a>
-        <a href="#">Seeded Races</a>
-        <a href="#">Masters Race</a>
-        <a href="#">Junior Race</a>
-        <a href="#">2025 Highlights</a>
-        <a href="/results">Results</a>
+        <a href="#" className="hover:text-lime-400 transition-colors duration-200">Elite Races</a>
+        <a href="#" className="hover:text-lime-400 transition-colors duration-200">Seeded Races</a>
+        <a href="#" className="hover:text-lime-400 transition-colors duration-200">Masters Race</a>
+        <a href="#" className="hover:text-lime-400 transition-colors duration-200">Junior Race</a>
+        <a href="#" className="hover:text-lime-400 transition-colors duration-200">2025 Highlights</a>
+        <a href="/results" className="hover:text-lime-400 transition-colors duration-200">Results</a>
       </nav>
     </header>
   );
