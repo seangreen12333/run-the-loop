@@ -1,22 +1,27 @@
 export default function Home() {
   return (
     <>
-      {/* HERO SECTION */}
-      <div
-        className="relative min-h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/background.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
+     {/* HERO SECTION */}
+<div
+  className="relative min-h-screen bg-cover bg-center"
+  style={{ backgroundImage: "url('/background.jpg')" }}
+>
+  {/* Overlay for contrast */}
+  <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
-        <header className="relative z-10 flex items-center justify-between px-6 py-4">
-          <img src="/logo.png" alt="Run The Loop Logo" className="h-12" />
-          <nav className="space-x-6 text-white font-semibold text-lg">
-            <a href="#" className="hover:text-[#00B28A]">Elite Races</a>
-            <a href="#" className="hover:text-[#00B28A]">Seeded Races</a>
-            <a href="#" className="hover:text-[#00B28A]">2025 Highlights</a>
-            <a href="#" className="hover:text-[#00B28A]">Results</a>
-          </nav>
-        </header>
+  {/* Navbar */}
+  <header className="relative z-10 flex items-center justify-between px-6 py-4">
+    <img src="/logo.png" alt="Run The Loop Logo" className="h-12" />
+    <nav className="space-x-6 text-white font-semibold text-lg">
+      <a href="#" className="hover:text-[#00B28A]">Elite Races</a>
+      <a href="#" className="hover:text-[#00B28A]">Seeded Races</a>
+      <a href="#" className="hover:text-[#00B28A]">Masters Race</a>
+      <a href="#" className="hover:text-[#00B28A]">Junior Race</a>
+      <a href="#" className="hover:text-[#00B28A]">2025 Highlights</a>
+      <a href="#" className="hover:text-[#00B28A]">Results</a>
+    </nav>
+  </header>
+
 
         <main className="relative z-10 text-white text-center pt-32 px-4">
           <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
@@ -54,53 +59,79 @@ export default function Home() {
         </div>
       </section>
 
-      {/* HOW IT WORKS SECTION */}
-      <section className="bg-gray-50 py-20 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 text-center">
-          How Does It Work?
-        </h2>
-        <ul className="space-y-6 text-lg text-gray-800 list-disc list-inside">
-          <li>
-            Get an official time around Adelaide’s iconic Uni Loop! Timing will be provided by our friends at the SA Road Runners Club.
-          </li>
-          <li>
-            Runners will be seeded into heats of approximately 10 athletes based on self-submitted seed times during registration.
-          </li>
-          <li>
-            Each heat runs individually — one finishes before the next begins.
-          </li>
-          <li>
-            The two fastest heats will be designated as the elite races: one male, one female.
-          </li>
-          <li>
-            All finishers receive a custom finisher pin and go in the draw to win 1× $100 or 2× $50 RunDNA vouchers.
-          </li>
-          <li>
-            Elite athletes will compete for prize money, with trophies awarded to:
-            <ul className="list-disc list-inside ml-6 mt-2">
-              <li>Top 3 male and female finishers in the elite races</li>
-              <li>First U18 male and first U18 female finisher overall</li>
-            </ul>
-          </li>
-          <li>
-            For full prize details, see the <span className="text-[#00B28A] font-semibold">Elite Races</span> and <span className="text-[#00B28A] font-semibold">Seeded Races</span> sections above.
-          </li>
-        </ul>
-      </section>
+     {/* HOW IT WORKS SECTION */}
+<section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
+  {/* Image Section */}
+  <div className="md:w-1/2">
+    <img
+      src="/how-it-works.jpg" // <-- Replace with your actual image file
+      alt="How It Works Visual"
+      className="w-full rounded-lg shadow-lg"
+    />
+  </div>
 
-      {/* WHERE & WHEN SECTION */}
-      <section className="bg-white py-20 px-6 max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8">Where & When?</h2>
-        <p className="text-lg text-gray-800 mb-4">
-          <strong>Where:</strong> Adelaide Uni Loop, starting at the 0-metre mark on the eastern corner of Mackinnon Parade.
-        </p>
-        <p className="text-lg text-gray-800 mb-4">
-          <strong>When:</strong> Friday 16th January 2026
-        </p>
-        <p className="text-lg text-gray-800">
-          <strong>Time:</strong> First race starts at 6:30 PM
-        </p>
-      </section>
+  {/* Text Section */}
+  <div className="md:w-1/2">
+    <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-6 relative inline-block">
+      <span className="relative z-10">How Does It Work?</span>
+      <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
+    </h2>
+    <ul className="space-y-4 text-lg text-gray-800 list-disc list-inside">
+      <li>
+        Get an official time around Adelaide’s iconic Uni Loop! Timing is provided by SA Road Runners Club & City-Bay Fun Run.
+      </li>
+      <li>
+        Runners are seeded into heats of ~10 athletes based on seed times submitted during registration.
+      </li>
+      <li>
+        Each heat runs individually — one finishes before the next begins.
+      </li>
+      <li>
+        The two fastest heats will be designated as the elite races: one male, one female.
+      </li>
+      <li>
+        All finishers receive a custom finisher pin.
+      </li>
+      <li>
+        Elite athletes compete for prize money, with trophies awarded to:
+        <ul className="list-disc list-inside ml-6 mt-2">
+          <li>Top 3 male and female elite finishers</li>
+          <li>Top U18 athletes</li>
+          <li>Top masters athletes</li>
+        </ul>
+      </li>
+      <li>
+        For a full breakdown of prize categories, see the <span className="text-[#00B28A] font-semibold">Elite Races</span> and <span className="text-[#00B28A] font-semibold">Seeded Races</span> above.
+      </li>
+    </ul>
+
+    {/* CTA Button */}
+    <a
+      href="#"
+      className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
+    >
+      View Full Map
+    </a>
+  </div>
+</section>
+
+
+{/* WHERE & WHEN SECTION */}
+<section className="bg-gray-50 py-20 px-6 max-w-5xl mx-auto text-center">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 relative inline-block">
+    <span className="relative z-10">Where & When?</span>
+    <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
+  </h2>
+  <p className="text-lg text-gray-800 mb-4">
+    <strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.
+  </p>
+  <p className="text-lg text-gray-800 mb-4">
+    <strong>When:</strong> Friday 16th January 2026
+  </p>
+  <p className="text-lg text-gray-800">
+    <strong>Time:</strong> First race starts at 6:30 PM
+  </p>
+</section>
     </>
   );
 }
