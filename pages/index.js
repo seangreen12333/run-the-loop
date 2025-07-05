@@ -13,7 +13,7 @@ export default function Home() {
   <header className="relative z-10 flex items-center justify-between px-6 py-4">
     <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
     <nav className="space-x-6 text-white font-semibold text-lg">
-      <a href="#" className="hover:text-[#00B28A]">Elite Races</a>
+      <a href="/elite" className="hover:text-[#00B28A]">Elite Races</a>
       <a href="#" className="hover:text-[#00B28A]">Seeded Races</a>
       <a href="#" className="hover:text-[#00B28A]">Masters Race</a>
       <a href="#" className="hover:text-[#00B28A]">Junior Race</a>
