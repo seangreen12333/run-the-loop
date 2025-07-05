@@ -8,7 +8,9 @@ export default function ResultsPage() {
     <>
       {/* Header with nav */}
       <header className="bg-[#102A43] text-white flex items-center justify-between px-6 py-4">
-        <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
+       <a href="https://www.runtheloop.org/">
+      <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12 hover:opacity-80 transition-opacity duration-200" />
+          </a>
         <nav className="space-x-6 text-white font-semibold text-lg">
           <a href="#">Elite Races</a>
           <a href="#">Seeded Races</a>
