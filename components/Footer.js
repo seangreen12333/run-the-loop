@@ -1,4 +1,4 @@
-// components/Footer.js
+
 // components/Footer.js
 const Footer = () => (
   <footer className="bg-[#102A43] text-white py-12 px-6">
