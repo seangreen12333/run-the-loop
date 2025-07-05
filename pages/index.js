@@ -156,26 +156,20 @@ export default function Home() {
 
 
 {/* Sponsors & Partners Section */}
-<section className="bg-gray-100 py-20 px-4 w-full overflow-hidden">
-  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">
+{/* Sponsors & Partners Section */}
+<section className="bg-[#102A43] py-20 px-6">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-12 border-b-4 border-lime-500 inline-block">
     Sponsors & Partners
   </h2>
-  <div className="relative w-full overflow-hidden">
-    <div className="flex animate-scroll-x gap-12 whitespace-nowrap">
-      <img src="/sponsor1.png" alt="Sponsor 1" className="h-20 w-auto inline-block" />
-      <img src="/sponsor2.png" alt="Sponsor 2" className="h-20 w-auto inline-block" />
-      <img src="/sponsor3.png" alt="Sponsor 3" className="h-20 w-auto inline-block" />
-      <img src="/sponsor4.png" alt="Sponsor 4" className="h-20 w-auto inline-block" />
-      <img src="/sponsor5.png" alt="Sponsor 5" className="h-20 w-auto inline-block" />
-      {/* Duplicate for smooth looping */}
-      <img src="/sponsor1.png" alt="Sponsor 1 Duplicate" className="h-20 w-auto inline-block" />
-      <img src="/sponsor2.png" alt="Sponsor 2 Duplicate" className="h-20 w-auto inline-block" />
-      <img src="/sponsor3.png" alt="Sponsor 3 Duplicate" className="h-20 w-auto inline-block" />
-      <img src="/sponsor4.png" alt="Sponsor 4 Duplicate" className="h-20 w-auto inline-block" />
-      <img src="/sponsor5.png" alt="Sponsor 5 Duplicate" className="h-20 w-auto inline-block" />
-    </div>
+  <div className="flex flex-wrap justify-center items-center gap-10 mt-8">
+    <img src="/sponsor1.png" alt="Sponsor 1" className="h-20 w-auto" />
+    <img src="/sponsor2.png" alt="Sponsor 2" className="h-20 w-auto" />
+    <img src="/sponsor3.png" alt="Sponsor 3" className="h-20 w-auto" />
+    <img src="/sponsor4.png" alt="Sponsor 4" className="h-20 w-auto" />
+    <img src="/sponsor5.png" alt="Sponsor 5" className="h-20 w-auto" />
   </div>
 </section>
+
 
 
   {/* Footer */}
