@@ -105,6 +105,16 @@ export default function Home() {
         For a full breakdown of prize categories, see the <span className="text-[#00B28A] font-semibold">Elite Races</span> and <span className="text-[#00B28A] font-semibold">Seeded Races</span> above.
       </li>
     </ul>
+
+    {/* CTA Button */}
+    <a
+      href="#"
+      className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
+    >
+      View Full Map
+    </a>
+  </div>
+        
 </section>
 
 
@@ -123,16 +133,6 @@ export default function Home() {
   <p className="text-lg text-gray-800">
     <strong>Time:</strong> First race starts at 6:30 PM
   </p>
-
-   {/* CTA Button */}
-    <a
-      href="#"
-      className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
-    >
-      View Full Map
-    </a>
-  </div>
-        
 </section>
 
   {/* Course Records Section */}
