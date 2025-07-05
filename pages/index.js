@@ -144,8 +144,9 @@ export default function Home() {
     Course Records
   </h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-    <img src="/record1.jpg" alt="Male Record" className="w-full rounded shadow-md" />
-    <img src="/record2.jpg" alt="Female Record" className="w-full rounded shadow-md" />
+    <img src="/record1.jpg" alt="Female Record" className="w-1/2 mx-auto rounded shadow-md" />
+    <img src="/record2.jpg" alt="Male Record" className="w-1/2 mx-auto rounded shadow-md" />
+
   </div>
 </section>
 
