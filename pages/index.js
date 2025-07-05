@@ -3,7 +3,7 @@ export default function Home() {
     <>
       <section className="bg-[#102A43] text-white py-16 px-4 text-center">
         <img
-          src="/run-the-loop-logo.png"
+          src="/logo.png"
           alt="Run The Loop Logo"
           style={{ width: '200px', height: 'auto' }}
           className="mx-auto mb-6"
