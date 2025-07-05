@@ -1,14 +1,12 @@
 // pages/results.js
 
-
-
-import Footer from '../components/Footer';
+import Footer from '../components/Footer'; // Reusable footer
 import Image from 'next/image';
 
 export default function ResultsPage() {
   return (
     <>
-      {/* NAVBAR / HEADER */}
+      {/* Header with nav */}
       <header className="bg-[#102A43] text-white flex items-center justify-between px-6 py-4">
         <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
         <nav className="space-x-6 text-white font-semibold text-lg">
@@ -21,10 +19,14 @@ export default function ResultsPage() {
         </nav>
       </header>
 
-  
       {/* HERO IMAGE */}
-      <section className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white" style={{ backgroundImage: "url('/results-banner.jpg')" }}>
-        <h1 className="text-5xl font-extrabold bg-black bg-opacity-60 px-4 py-2 rounded">Results</h1>
+      <section
+        className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white"
+        style={{ backgroundImage: "url('/results-banner.jpg')" }}
+      >
+        <h1 className="text-5xl font-extrabold bg-black bg-opacity-60 px-4 py-2 rounded">
+          Results
+        </h1>
       </section>
 
       <section className="max-w-6xl mx-auto px-4 py-16 text-[#102A43]">
@@ -57,9 +59,15 @@ export default function ResultsPage() {
             </tbody>
           </table>
         </div>
-        <button className="bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-2 px-4 rounded-lg">
-          Download Full Rankings (Excel)
-        </button>
+
+        {/* Male Excel Download */}
+        <a
+          href="/male-rankings.xlsx"
+          download
+          className="inline-block bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-2 px-4 rounded-lg"
+        >
+          Download Full Male Rankings (Excel)
+        </a>
 
         {/* Top 10 Females */}
         <h2 className="text-3xl font-bold mt-16 mb-6">Top 10 All-Time Female</h2>
@@ -90,21 +98,29 @@ export default function ResultsPage() {
             </tbody>
           </table>
         </div>
-        <button className="bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-2 px-4 rounded-lg">
-          Download Full Rankings (Excel)
-        </button>
 
-        {/* Previous Results */}
+        {/* Female Excel Download */}
+        <a
+          href="/female-rankings.xlsx"
+          download
+          className="inline-block bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-2 px-4 rounded-lg"
+        >
+          Download Full Female Rankings (Excel)
+        </a>
+
+        {/* Previous Years */}
         <h2 className="text-3xl font-bold mt-16 mb-6">Previous Years</h2>
         <a
           href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202025"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-[#102A43] hover:bg-[#0c1d33] text-white font-bold py-2 px-6 rounded-lg"
         >
           2025 Results
         </a>
       </section>
 
-      {/* Footer - same as homepage */}
+      {/* Footer */}
       <Footer />
     </>
   );
