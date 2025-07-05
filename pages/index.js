@@ -39,27 +39,29 @@ export default function Home() {
         </main>
       </div>
 
-      {/* UNI LOOP SECTION */}
-      <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
-        <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">
-    The Uni Loop
-        
-          <p className="text-lg mb-4">
-            Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10. It features a mostly flat 2.2km unsealed, tree-lined loop with distance markers every 200 metres. The Uni Loop serves as a training ground for some of Australia's most elite distance athletes, as well as a popular destination for the general public.
-          </p>
-          <p className="text-lg">
-            Athletes will start at the 0m mark, heading west towards Frome Road for 600m. The loop then winds back, running parallel to War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m uphill. The final 600m is flat, perfect for those fast finishers.
-          </p>
-        </div>
-        <div className="md:w-1/2">
-          <img
-            src="/uni-loop-map.jpg"
-            alt="Uni Loop Course Map"
-            className="w-full rounded-lg shadow-lg"
-          />
-        </div>
-      </section>
+{/* UNI LOOP SECTION */}
+<section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
+  <div className="md:w-1/2">
+    <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">
+      The Uni Loop
+    </h2>
+    <p className="text-lg mb-4">
+      Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10. It features a mostly flat 2.2km unsealed, tree-lined loop with distance markers every 200 metres. The Uni Loop serves as a training ground for some of Australia's most elite distance athletes, as well as a popular destination for the general public.
+    </p>
+    <p className="text-lg">
+      Athletes will start at the 0m mark, heading west towards Frome Road for 600m. The loop then winds back, running parallel to War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m uphill. The final 600m is flat, perfect for those fast finishers.
+    </p>
+  </div>
+
+  <div className="md:w-1/2">
+    <img
+      src="/uni-loop-map.jpg"
+      alt="Uni Loop Course Map"
+      className="w-full rounded-lg shadow-lg"
+    />
+  </div>
+</section>
+
 
 {/* HOW IT WORKS SECTION */}
 <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
