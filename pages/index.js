@@ -59,16 +59,23 @@ export default function Home() {
         </div>
       </section>
 
-     {/* HOW IT WORKS SECTION */}
+{/* HOW IT WORKS SECTION */}
 <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
   {/* Image Section */}
-  <div className="md:w-1/2">
+  <div className="md:w-1/2 flex justify-center md:justify-start pl-6">
     <img
       src="/how-it-works.jpg" // <-- Replace with your actual image file
       alt="How It Works Visual"
-      className="w-4/5 md:w-3/4 lg:w-2/3 rounded-lg shadow-lg"
+      className="w-[80%] md:w-[70%] lg:w-[65%] rounded-lg shadow-lg"
     />
   </div>
+
+  {/* Text Section */}
+  <div className="md:w-1/2">
+    {/* Your text content here */}
+  </div>
+</section>
+
 
   {/* Text Section */}
   <div className="md:w-1/2">
