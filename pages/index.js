@@ -64,18 +64,11 @@ export default function Home() {
   {/* Image Section */}
   <div className="md:w-1/2 flex justify-center md:justify-start pl-6">
     <img
-      src="/how-it-works.jpg" // <-- Replace with your actual image file
+      src="/how-it-works.jpg"
       alt="How It Works Visual"
       className="w-[80%] md:w-[70%] lg:w-[65%] rounded-lg shadow-lg"
     />
   </div>
-
-  {/* Text Section */}
-  <div className="md:w-1/2">
-    {/* Your text content here */}
-  </div>
-</section>
-
 
   {/* Text Section */}
   <div className="md:w-1/2">
