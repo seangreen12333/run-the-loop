@@ -62,13 +62,14 @@ export default function Home() {
 {/* HOW IT WORKS SECTION */}
 <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
   {/* Image Section */}
-  <div className="md:w-1/2 flex justify-center md:justify-start pl-6">
-    <img
-      src="/how-it-works.jpg"
-      alt="How It Works Visual"
-      className="w-[80%] md:w-[70%] lg:w-[65%] rounded-lg shadow-lg"
-    />
-  </div>
+<div className="md:w-1/2 flex justify-center md:justify-start pr-6 lg:pl-20">
+  <img
+    src="/how-it-works.jpg"
+    alt="How It Works Visual"
+    className="w-[80%] md:w-[70%] lg:w-[65%] rounded-lg shadow-lg"
+  />
+</div>
+
 
   {/* Text Section */}
   <div className="md:w-1/2">
