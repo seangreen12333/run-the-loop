@@ -105,14 +105,6 @@ export default function Home() {
         For a full breakdown of prize categories, see the <span className="text-[#00B28A] font-semibold">Elite Races</span> and <span className="text-[#00B28A] font-semibold">Seeded Races</span> above.
       </li>
     </ul>
-
-    {/* CTA Button */}
-    <a
-      href="#"
-      className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
-    >
-      View Full Map
-    </a>
   </div>
         
 </section>
@@ -143,6 +135,14 @@ export default function Home() {
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
     <img src="/record1.jpg" alt="Male Record" className="w-full rounded shadow-md" />
     <img src="/record2.jpg" alt="Female Record" className="w-full rounded shadow-md" />
+
+  {/* CTA Button */}
+    <a
+      href="#"
+      className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
+    >
+      View Full Map
+    </a>
   </div>
 </section>
 
