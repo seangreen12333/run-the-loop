@@ -174,7 +174,7 @@ export default function Home() {
     
     {/* Logo */}
     <div className="flex justify-center md:justify-start">
-      <img src="/logo_cropped.png" alt="Run The Loop Logo" className="h-20" />
+      <img src="/logo_white.png" alt="Run The Loop Logo" className="h-20" />
     </div>
 
     {/* Contact Info */}
