@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2024 Highlights Section */}
+      {/* 2025 Highlights Section */}
       <section className="py-16 px-4 bg-gray-100 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">2024 Highlights</h2>
