@@ -62,3 +62,51 @@ export default function Home() {
     </>
   );
 }
+
+{/* How It Works Section */}
+<section className="bg-gray-50 py-20 px-6 max-w-5xl mx-auto">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 text-center">
+    How Does It Work?
+  </h2>
+  <ul className="space-y-6 text-lg text-gray-800 list-disc list-inside">
+    <li>
+      Get an official time around Adelaide’s iconic Uni Loop! Timing will be provided by our friends at the SA Road Runners Club.
+    </li>
+    <li>
+      Runners will be seeded into heats of approximately 10 athletes based on self-submitted seed times during registration.
+    </li>
+    <li>
+      Each heat runs individually — one finishes before the next begins.
+    </li>
+    <li>
+      The two fastest heats will be designated as the elite races: one male, one female.
+    </li>
+    <li>
+      All finishers receive a custom finisher pin and go in the draw to win 1× $100 or 2× $50 RunDNA vouchers.
+    </li>
+    <li>
+      Elite athletes will compete for prize money, with trophies awarded to:
+      <ul className="list-disc list-inside ml-6 mt-2">
+        <li>Top 3 male and female finishers in the elite races</li>
+        <li>First U18 male and first U18 female finisher overall</li>
+      </ul>
+    </li>
+    <li>
+      For full prize details, see the <span className="text-[#00B28A] font-semibold">Elite Races</span> and <span className="text-[#00B28A] font-semibold">Seeded Races</span> sections above.
+    </li>
+  </ul>
+</section>
+
+{/* Where and When Section */}
+<section className="bg-white py-20 px-6 max-w-5xl mx-auto text-center">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8">Where & When?</h2>
+  <p className="text-lg text-gray-800 mb-4">
+    <strong>Where:</strong> Adelaide Uni Loop, starting at the 0-metre mark on the eastern corner of Mackinnon Parade.
+  </p>
+  <p className="text-lg text-gray-800 mb-4">
+    <strong>When:</strong> Friday 16th January 2026
+  </p>
+  <p className="text-lg text-gray-800">
+    <strong>Time:</strong> First race starts at 6:30 PM
+  </p>
+</section>
