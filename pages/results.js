@@ -1,23 +1,26 @@
 // pages/results.js
 
-import Footer from '../components/Footer'; // Assuming you made a reusable Footer
+
+
+import Footer from '../components/Footer';
 import Image from 'next/image';
 
 export default function ResultsPage() {
   return (
     <>
-  <header className="bg-[#102A43] text-white flex items-center justify-between px-6 py-4">
-  <header className="relative z-10 flex items-center justify-between px-6 py-4">
-  <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
-  <nav className="space-x-6 text-white font-semibold text-lg">
-    <a href="#">Elite Races</a>
-    <a href="#">Seeded Races</a>
-    <a href="#">Masters Race</a>
-    <a href="#">Junior Race</a>
-    <a href="#">2025 Highlights</a>
-    <a href="/results">Results</a>
-  </nav>
-</header>
+      {/* NAVBAR / HEADER */}
+      <header className="bg-[#102A43] text-white flex items-center justify-between px-6 py-4">
+        <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
+        <nav className="space-x-6 text-white font-semibold text-lg">
+          <a href="#">Elite Races</a>
+          <a href="#">Seeded Races</a>
+          <a href="#">Masters Race</a>
+          <a href="#">Junior Race</a>
+          <a href="#">2025 Highlights</a>
+          <a href="/results">Results</a>
+        </nav>
+      </header>
+
   
       {/* HERO IMAGE */}
       <section className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white" style={{ backgroundImage: "url('/results-banner.jpg')" }}>
