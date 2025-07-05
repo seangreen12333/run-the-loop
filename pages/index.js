@@ -66,7 +66,7 @@ export default function Home() {
     <img
       src="/how-it-works.jpg" // <-- Replace with your actual image file
       alt="How It Works Visual"
-      className="w-full rounded-lg shadow-lg"
+      className="w-4/5 md:w-3/4 lg:w-2/3 rounded-lg shadow-lg"
     />
   </div>
 
