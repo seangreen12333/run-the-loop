@@ -97,7 +97,7 @@ export default function Home() {
         All finishers receive a custom finisher pin.
       </li>
       <li>
-        Elite athletes compete for prize money, with trophies awarded to:
+        With prizes awarded to:
         <ul className="list-disc list-inside ml-6 mt-2">
           <li>Top 3 male and female elite finishers</li>
           <li>Top U18 athletes</li>
@@ -105,7 +105,7 @@ export default function Home() {
         </ul>
       </li>
       <li>
-        For a full breakdown of prize categories, see the <span className="text-[#00B28A] font-semibold">Elite Races</span> and <span className="text-[#00B28A] font-semibold">Seeded Races</span> above.
+        For a full breakdown of prize categories, see the links above.
       </li>
     </ul>
   </div>
