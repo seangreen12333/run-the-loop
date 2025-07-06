@@ -1,26 +1,70 @@
+import { useState } from 'react';
+import Link from 'next/link';
+
+function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <header className="bg-[#102A43] text-white px-6 py-4 flex items-center justify-between relative z-50">
+      {/* Logo */}
+      <a href="/" className="flex items-center">
+        <img src="/logo_white.png" alt="Run The Loop Logo" className="h-10" />
+      </a>
+
+      {/* Desktop Nav */}
+      <nav className="hidden md:flex space-x-6 text-white font-semibold text-lg">
+        <Link href="/elite"><span className="hover:text-[#00B28A]">Elite Races</span></Link>
+        <Link href="/seeded"><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
+        <Link href="/masters"><span className="hover:text-[#00B28A]">Masters Race</span></Link>
+        <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
+        <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
+      </nav>
+
+      {/* Mobile Menu Button */}
+      <button
+        className="md:hidden focus:outline-none"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label="Toggle menu"
+      >
+        <svg
+          className="h-6 w-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      {/* Mobile Sidebar Menu */}
+      {isOpen && (
+        <div className="absolute top-full left-0 w-full bg-[#102A43] shadow-md md:hidden flex flex-col space-y-4 p-6 text-lg font-semibold">
+          <Link href="/elite" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Elite Races</span></Link>
+          <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
+          <Link href="/masters" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Masters Race</span></Link>
+          <Link href="/junior" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Junior Race</span></Link>
+          <Link href="/results" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Results</span></Link>
+        </div>
+      )}
+    </header>
+  );
+}
+
 export default function Home() {
   return (
     <>
-     {/* HERO SECTION */}
-<div
-  className="relative min-h-screen bg-cover bg-center"
-  style={{ backgroundImage: "url('/background.jpg')" }}
->
-  {/* Overlay for contrast */}
-  <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
+      {/* HERO SECTION */}
+      <div
+        className="relative min-h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url('/background.jpg')" }}
+      >
+        {/* Overlay for contrast */}
+        <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
-  {/* Navbar */}
-  <header className="relative z-10 flex items-center justify-between px-6 py-4">
-    <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
-    <nav className="space-x-6 text-white font-semibold text-lg">
-      <a href="/elite" className="hover:text-[#00B28A]">Elite Races</a>
-      <a href="/seeded" className="hover:text-[#00B28A]">Seeded Races</a>
-      <a href="/masters" className="hover:text-[#00B28A]">Masters Race</a>
-      <a href="/junior" className="hover:text-[#00B28A]">Junior Race</a>
-      <a href="/results" className="hover:text-[#00B28A]">Results</a>
-    </nav>
-  </header>
-
+        {/* Navbar */}
+        <Header />
 
         <main className="relative z-10 text-white text-center pt-32 px-4">
           <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
@@ -37,6 +81,10 @@ export default function Home() {
           </a>
         </main>
       </div>
+    </>
+  );
+}
+
 
 {/* UNI LOOP SECTION */}
 <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
