@@ -39,7 +39,7 @@ export default function EliteRacesPage() {
         <p>Break the course record and score a <strong>$100</strong> bonus — in addition to your placing prize.</p>
 
         <p className="mt-10">
-          Think you've got what it takes? Time to race the loop. 🏃‍♂️🔥
+          Think you've got what it takes? Time to Conquer the loop.
         </p>
       </section>
 
