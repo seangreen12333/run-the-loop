@@ -10,7 +10,12 @@ export default function Header() {
     <header className="bg-[#102A43] text-white px-6 py-4 flex items-center justify-between relative z-50">
       {/* Logo */}
       <a href="https://www.runtheloop.org/" className="flex items-center">
-        <img src="/logo_white.png" alt="Run The Loop Logo" className="h-12" />
+       <img
+        src="/logo_white.png"
+        alt="Run The Loop Logo"
+        className="h-10 md:h-12 w-auto max-w-[160px]"
+        />
+
       </a>
 
       {/* Desktop Nav */}
