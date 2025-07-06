@@ -40,7 +40,7 @@ export default function SeededRacesPage() {
         </p>
 
         <p>
-          The Loop isn't just about the race — it's about the people. Bring your family and friends to cheer you on, or stick around and support others chasing their own goals. Whether it's little siblings cheering from the grass or crowds lining the final bend, the energy is always electric.
+          The Loop isn't just about the race — it's about the people. Bring your family and friends to cheer you on, or stick around and support others chasing their own goals.
         </p>
 
         <p>
