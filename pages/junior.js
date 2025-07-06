@@ -29,9 +29,9 @@ export default function JuniorRacePage() {
           Junior athletes will compete within the open seeded races — this means you'll be placed with athletes of similar ability to ensure fast and competitive racing. Junior results will be extracted from official chip times.
         </p>
 
-        <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">U18 Prize Money</h2>
+        <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">U18 Prize Money (Male & Female)</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li><strong>1st place (Male & Female):</strong> $100</li>
+          <li><strong>1st place:</strong> $100</li>
           <li><strong>2nd place:</strong> $50</li>
           <li><strong>3rd place:</strong> $30</li>
         </ul>
