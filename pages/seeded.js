@@ -48,7 +48,7 @@ export default function SeededRacesPage() {
         </p>
 
         <p className="mt-10 font-semibold">
-          Ready to kick off 2026 right? Let’s race the Loop.
+          Ready to kick off 2026 right? Let’s conquer the Loop.
         </p>
       </section>
 
