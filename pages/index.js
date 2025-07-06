@@ -16,7 +16,7 @@ export default function Home() {
       <a href="/elite" className="hover:text-[#00B28A]">Elite Races</a>
       <a href="/seeded" className="hover:text-[#00B28A]">Seeded Races</a>
       <a href="/masters" className="hover:text-[#00B28A]">Masters Race</a>
-      <a href="#" className="hover:text-[#00B28A]">Junior Race</a>
+      <a href="/junior" className="hover:text-[#00B28A]">Junior Race</a>
       <a href="/results" className="hover:text-[#00B28A]">Results</a>
     </nav>
   </header>
