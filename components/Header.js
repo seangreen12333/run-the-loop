@@ -7,8 +7,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[#102A43] text-white px-6 h-16 md:h-20 flex items-center justify-between relative z-50">
-      {/* Logo */}
+    <header className="bg-[#102A43] text-white px-6 py-4 flex items-center justify-between relative z-50 h-16 md:h-20">
       <a href="https://www.runtheloop.org/" className="flex items-center h-full">
         <img
           src="/logo_white.png"
@@ -34,7 +33,7 @@ export default function Header() {
         </a>
       </nav>
 
-      {/* Mobile Menu Toggle Button */}
+      {/* Mobile Menu Button */}
       <button
         className="md:hidden focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
@@ -45,7 +44,7 @@ export default function Header() {
         </svg>
       </button>
 
-      {/* Mobile Dropdown Nav */}
+      {/* Mobile Nav Menu */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-[#102A43] shadow-md md:hidden flex flex-col space-y-4 p-6 text-lg font-semibold z-40">
           <a
