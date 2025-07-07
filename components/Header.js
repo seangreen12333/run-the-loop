@@ -12,8 +12,9 @@ export default function Header() {
         <img
           src="/logo_white.png"
           alt="Run The Loop Logo"
-          className="h-10 md:h-12 w-auto max-w-[160px]"
+          className="h-10 md:h-12 w-auto max-w-[160px] object-contain"
         />
+
       </a>
 
       {/* Desktop Nav */}
