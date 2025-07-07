@@ -8,23 +8,29 @@ export default function Header() {
 
   return (
     <header className="bg-[#102A43] text-white px-6 py-4 flex items-center justify-between relative z-50">
-      {/* Logo */}
       <a href="https://www.runtheloop.org/" className="flex items-center">
-       <img
-        src="/logo_white.png"
-        alt="Run The Loop Logo"
-        className="h-10 md:h-12 w-auto max-w-[160px]"
+        <img
+          src="/logo_white.png"
+          alt="Run The Loop Logo"
+          className="h-10 md:h-12 w-auto max-w-[160px]"
         />
-
       </a>
 
       {/* Desktop Nav */}
-      <nav className="hidden md:flex space-x-6 text-white font-semibold text-lg">
+      <nav className="hidden md:flex space-x-6 text-white font-semibold text-lg items-center">
         <Link href="/elite"><span className="hover:text-[#00B28A]">Elite Races</span></Link>
         <Link href="/seeded"><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
         <Link href="/masters"><span className="hover:text-[#00B28A]">Masters Race</span></Link>
         <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
         <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
+        <a
+          href="https://www.revolutionise.com.au/auac/events/303529"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg ml-2 transition-colors duration-200"
+        >
+          Enter Here
+        </a>
       </nav>
 
       {/* Mobile Menu Button */}
@@ -41,6 +47,14 @@ export default function Header() {
       {/* Mobile Nav Menu */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-[#102A43] shadow-md md:hidden flex flex-col space-y-4 p-6 text-lg font-semibold z-40">
+          <a
+            href="https://www.revolutionise.com.au/auac/events/303529"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200"
+          >
+            Enter Here
+          </a>
           <Link href="/elite" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Elite Races</span></Link>
           <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
           <Link href="/masters" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Masters Race</span></Link>
