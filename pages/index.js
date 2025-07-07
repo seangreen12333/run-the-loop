@@ -71,10 +71,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
         <main className="relative z-10 text-white text-center pt-32 px-4">
           <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
-            FRIDAY 16TH JANUARY 2026 - 6:30 PM
+            FRIDAY 16 JANUARY 2026 · 6:30 PM · Adelaide Uni Loop
           </p>
           <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
-            Start 2026 on the right foot with an official time around Adelaide's legendary Uni Loop!
+           Start 2026 strong with an official time around Adelaide’s home of running!
           </h1>
           <a href="https://www.revolutionise.com.au/auac/events/303529" className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg">
             Sign Up Here
