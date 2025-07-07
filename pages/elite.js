@@ -32,9 +32,9 @@ export default function EliteRacesPage() {
           <li><strong>3rd place:</strong> $150</li>
         </ul>
 
-       <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">1K Bonus</h2>
+     <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">1K Bonus</h2>
       <p>
-          The first athlete through the 1km mark in each elite race takes home an extra <strong>$100</strong><sup>*</sup>.
+        The first athlete through the 1km mark in each elite race takes home an extra <strong>$100</strong><sup>*</sup>.
       </p>
 
       <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">Course Record Bonus</h2>
@@ -42,14 +42,13 @@ export default function EliteRacesPage() {
         A <strong>$100</strong> bonus is awarded to the <em>first</em> athlete in each elite race to break the course record<sup>*</sup>.
       </p>
 
-    <p className="mt-10">
+      <p className="mt-10">
         Think you've got what it takes? Time to Conquer the loop.
-    </p>
-    
-        </section>
+      </p>
+      </section>
 
-    <p className="text-sm italic text-gray-600 mt-2">
-      <sup>*</sup> Athletes must complete the race with a bona fide effort to be eligible for bonuses. Only the first athlete to break the course record in each race receives the Course Record Bonus.
-    </p>
+      <p className="text-sm italic text-gray-600 mt-2">
+        <sup>*</sup> Athletes must complete the race with a bona fide effort to be eligible for bonuses. Only the first athlete to break the course record in each race receives the Course Record Bonus. Bonuses may be awarded in the form of vouchers of equivalent value.
+      </p>
 
-    <Footer />
+      <Footer />
