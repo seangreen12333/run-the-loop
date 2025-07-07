@@ -93,7 +93,7 @@ export default function Home() {
       The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10), incorporating both flat straights and gentle bends.
     </p>
     <p className="text-lg mb-4">
-      The run starts at the 0 marker on Mackinnon Pde and heads west towards Frome Road for 600m. The loop then briefly heads east, before winding back to run parallel to War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m climb up the old portion of 'Sandcartes Road'. From this point, the final 600m is flat — perfect for those fast finishers. The race finishes exactly where it starts — with chip timing and official results to lock in your loop PB.
+      The run starts at the 0 marker on Mackinnon Pde and heads west towards Frome Road for 600m. The loop then briefly heads South, before winding back to run parallel to War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m climb up the old portion of 'Sandcartes Road'. From this point, the final 600m is flat — perfect for those fast finishers. The race finishes exactly where it starts — with chip timing and official results to lock in your loop PB.
     </p>
   </div>
   <div className="md:w-1/2">
