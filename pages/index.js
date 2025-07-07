@@ -84,19 +84,23 @@ export default function Home() {
 
       {/* UNI LOOP SECTION */}
       <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
-        <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">The Uni Loop</h2>
-          <p className="text-lg mb-4">
-            Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over a full kilometre loop.
-          </p>
-          <p className="text-lg">
-            Athletes will start at the 0m mark, heading west towards Frome Road, then looping clockwise around the full 1km circuit. The race finishes exactly where it starts — with chip timing and official results to lock in your loop PB.
-          </p>
-        </div>
-        <div className="md:w-1/2">
-          <img src="/uni-loop-map.jpg" alt="Uni Loop Course Map" className="w-full rounded-lg shadow-lg" />
-        </div>
-      </section>
+  <div className="md:w-1/2">
+    <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">The Uni Loop</h2>
+    <p className="text-lg mb-4">
+      Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over a full kilometre loop.
+    </p>
+    <p className="text-lg mb-4">
+      The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10), incorporating both flat straights and gentle bends.
+    </p>
+    <p className="text-lg">
+      Athletes will start at the 0m mark, heading west towards Frome Road, then looping clockwise around the full 1km circuit. The race finishes exactly where it starts — with chip timing and official results to lock in your loop PB.
+    </p>
+  </div>
+  <div className="md:w-1/2">
+    <img src="/uni-loop-map.jpg" alt="Uni Loop Course Map" className="w-full rounded-lg shadow-lg" />
+  </div>
+</section>
+
 
       {/* HOW IT WORKS SECTION */}
       <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
