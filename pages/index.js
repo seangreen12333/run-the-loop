@@ -87,16 +87,13 @@ export default function Home() {
   <div className="md:w-1/2">
     <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">The Uni Loop</h2>
     <p className="text-lg mb-4">
-      Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over a full kilometre loop.
+      Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over a full 2.2 kilometre loop.
     </p>
     <p className="text-lg mb-4">
       The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10), incorporating both flat straights and gentle bends.
     </p>
     <p className="text-lg mb-4">
-      The run starts at the corner of Jerningham St and Mackinnon Pde and heads west towards Frome Road for 600m. The loop then briefly heads east, before winding back to run parallel to War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m climb up the old portion 'Sandcartes Road'. From this point, the final 600m is flat — perfect for those fast finishers.
-    </p>
-    <p className="text-lg">
-      Athletes will start at the 0m mark, heading west towards Frome Road, then looping clockwise around the full 1km circuit. The race finishes exactly where it starts — with chip timing and official results to lock in your loop PB.
+      The run starts at the 0 marker on Mackinnon Pde and heads west towards Frome Road for 600m. The loop then briefly heads east, before winding back to run parallel to War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m climb up the old portion of 'Sandcartes Road'. From this point, the final 600m is flat — perfect for those fast finishers. The race finishes exactly where it starts — with chip timing and official results to lock in your loop PB.
     </p>
   </div>
   <div className="md:w-1/2">
