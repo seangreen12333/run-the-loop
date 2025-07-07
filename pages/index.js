@@ -11,7 +11,7 @@ export default function Home() {
     
       <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/background.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
-        <Header />
+     
         <main className="relative z-10 text-white text-center pt-32 px-4">
           <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
             FRIDAY 16TH JANUARY 2026
