@@ -27,7 +27,7 @@ export default function Header() {
           href="https://www.revolutionise.com.au/auac/events/303529"
           target="_blank"
           rel="noopener noreferrer"
-          className="border border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg ml-2 transition-colors duration-200"
+          className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
         >
           Enter Here
         </a>
@@ -51,7 +51,7 @@ export default function Header() {
             href="https://www.revolutionise.com.au/auac/events/303529"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200"
+            className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
           >
             Enter Here
           </a>
