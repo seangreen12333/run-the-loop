@@ -74,7 +74,7 @@ export default function Home() {
             FRIDAY 16 JANUARY 2026 · 6:30 PM · Adelaide Uni Loop
           </p>
           <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
-           Start 2026 strong with an official time around Adelaide’s home of running!
+          Kickstart 2026 with an official time on the iconic Uni Loop – The heart of Adelaide’s Running Legacy!
           </h1>
           <a href="https://www.revolutionise.com.au/auac/events/303529" className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg">
             Sign Up Here
@@ -87,13 +87,13 @@ export default function Home() {
   <div className="md:w-1/2">
     <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">The Uni Loop</h2>
     <p className="text-lg mb-4">
-      Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over a full 2.2 kilometre loop.
+      The Uni Loop - Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over an uninterrupted 2.2 kilometre loop
     </p>
     <p className="text-lg mb-4">
       The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10), incorporating both flat straights and gentle bends.
     </p>
     <p className="text-lg mb-4">
-      The run starts at the 0 marker on Mackinnon Pde and heads west towards Frome Road for 600m. The loop then briefly heads South, before winding back to run parallel to War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m climb up the old portion of 'Sandcartes Road'. From this point, the final 600m is flat — perfect for those fast finishers. The race finishes exactly where it starts — with chip timing and official results to lock in your loop PB.
+      The run starts at the 0 marker on Mackinnon Parade and heads west towards Adelaide Oval for 600m. The loop then arcs left towards Adelaide Zoo, before turning left again and winding back to run parallel with War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m climb. From this point, the final 600m is flat — perfect for those fast finishers. The race finishes exactly where it starts — with chip timing and official results to lock in your Uni Loop PB.
     </p>
   </div>
   <div className="md:w-1/2">
@@ -114,15 +114,15 @@ export default function Home() {
           </h2>
           <ul className="space-y-4 text-lg text-gray-800 list-disc list-inside">
             <li>Get an official time around Adelaide’s iconic Uni Loop! Timing is provided by SA Road Runners Club & City-Bay Fun Run.</li>
-            <li>Runners are seeded into heats of ~10 athletes based on seed times...</li>
+            <li>Runners are seeded into heats of ~10 athletes based on seed times.</li>
             <li>Each heat runs individually — one finishes before the next begins.</li>
-            <li>The two fastest heats will be designated as the elite races...</li>
+            <li>The two fastest heats will be designated as the elite races.</li>
             <li>All finishers receive a custom finisher pin.</li>
             <li>With prizes awarded to:
               <ul className="list-disc list-inside ml-6 mt-2">
                 <li>Top 3 male and female elite finishers</li>
-                <li>Top U18 athletes</li>
-                <li>Top masters athletes</li>
+                <li>Top 3 male and female U18 athletes</li>
+                <li>Top masters athletes (Specifics TBD)</li>
               </ul>
             </li>
             <li>For a full breakdown of prize categories, see the links above.</li>
