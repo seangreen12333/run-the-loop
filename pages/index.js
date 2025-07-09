@@ -87,7 +87,7 @@ export default function Home() {
   <div className="md:w-1/2">
     <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">The Uni Loop</h2>
     <p className="text-lg mb-4">
-      The Uni Loop - Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over an uninterrupted 2.2 kilometre loop
+      The Uni Loop - Adelaide's iconic Uni Loop sits just north of the River Torrens, surrounding Park 10 — a popular training ground for elite athletes, fun runners, and university students alike. It's fast, flat, and scenic — the perfect spot to test yourself over an uninterrupted 2.2 kilometre loop.
     </p>
     <p className="text-lg mb-4">
       The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10), incorporating both flat straights and gentle bends.
@@ -120,7 +120,8 @@ export default function Home() {
             <li>All finishers receive a custom finisher pin.</li>
             <li>With prizes awarded to:
               <ul className="list-disc list-inside ml-6 mt-2">
-                <li>Top 3 male and female elite finishers</li>
+                <li>Top 3 male and female elite athletes</li>
+                <li>Fastest male and female athlete to the 1000 m mark
                 <li>Top 3 male and female U18 athletes</li>
                 <li>Top masters athletes (Specifics TBD)</li>
               </ul>
