@@ -122,7 +122,7 @@ export default function Home() {
               <ul className="list-disc list-inside ml-6 mt-2">
                 <li>Top 3 male and female elite athletes</li>
                 <li>Fastest male and female athlete to the 1000 m mark</li>
-                <li>Top 3 male and female U18 athletes</li>
+                <li>Top 3 U18 male and female athletes</li>
                 <li>Top masters athletes (Specifics TBD)</li>
               </ul>
             </li>
