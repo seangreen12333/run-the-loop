@@ -83,7 +83,7 @@ export default function SeededRacesPage() {
   </h2>
   <div className="flex flex-col items-center">
     <img
-      src="/RunDNA.png"
+      src="/rundna.png"
       alt="RunDNA"
       className="h-24 w-auto mb-2"
     />
