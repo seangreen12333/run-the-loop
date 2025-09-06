@@ -168,7 +168,7 @@ export default function Home() {
     </a>
 
     <a href="https://www.rundna.com.au/" target="_blank" rel="noopener noreferrer">
-      <img src="/rundna.png" alt="RunDNA" className="h-15 w-auto mx-6" />
+      <img src="/rundna.png" alt="RunDNA" className="h-12 w-auto mx-6" />
     </a>
 
     <a href="https://revolutionise.com.au/auathletics" target="_blank" rel="noopener noreferrer">
