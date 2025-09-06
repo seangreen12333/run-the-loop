@@ -34,7 +34,7 @@ export default function EliteRacesPage() {
 
      <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">RunDNA 1K</h2>
       <p>
-        The first athlete through the 1km mark in each elite race takes home a <strong>$150</strong> RunDNA Voucher <sup>*</sup>.
+        The first athlete through the 1km mark in each elite race will take home a <strong>$150</strong> RunDNA Voucher<sup>*</sup>.
       </p>
 
       <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">Course Record Bonus</h2>
