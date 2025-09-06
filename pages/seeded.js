@@ -71,11 +71,27 @@ export default function SeededRacesPage() {
             Ready to kick off 2026 right? Let’s conquer the Loop.
           </p>
 
-          <p className="mt-4 text-sm text-slate-500">
-            *Excludes the New FuelCell SC Elite v5.
-          </p>
+         
         </section>
       </section> {/* ✅ close the outer content section */}
+
+
+              {/* Partner Section */}
+<section className="my-12 text-center">
+  <h2 className="text-xl font-semibold text-slate-800 mb-4">
+    Proudly partnered with:
+  </h2>
+  <div className="flex flex-col items-center">
+    <img
+      src="/RunDNA.png"
+      alt="RunDNA"
+      className="h-24 w-auto mb-2"
+    />
+    <p className="text-sm text-slate-500 italic self-start">
+      *Excludes the New FuelCell SC Elite v5.
+    </p>
+  </div>
+</section>
 
       <Footer />
     </>
