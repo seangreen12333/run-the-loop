@@ -47,9 +47,23 @@ export default function SeededRacesPage() {
           Stick around afterward to watch the elite athletes go head-to-head in their quest for Uni Loop glory. It’s a Friday afternoon well spent — fast laps, fresh goals, and a whole lot of heart.
         </p>
 
+        <section className="text-center my-10">
+        <h2 className="text-2xl md:text-3xl font-bold text-teal-600 mb-4">
+            RunDNA Giveaway
+        </h2>
+        <p className="text-lg text-slate-800 mb-6">
+          A random entrant will win a voucher for a pair of New Balance shoes valued up to 
+        <span className="font-bold"> $330 RRP</span><sup>*</sup>.
+        </p>
+        
         <p className="mt-10 font-semibold">
           Ready to kick off 2026 right? Let’s conquer the Loop.
         </p>
+
+        <p className="mt-4 text-sm text-slate-500">
+        *Excludes the New FuelCell SC Elite v5.
+        </p>
+
       </section>
 
       <Footer />
