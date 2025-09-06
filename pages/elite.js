@@ -32,9 +32,9 @@ export default function EliteRacesPage() {
           <li><strong>3rd place:</strong> $150</li>
         </ul>
 
-     <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">1K Bonus</h2>
+     <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">RunDNA 1K</h2>
       <p>
-        The first athlete through the 1km mark in each elite race takes home an extra <strong>$100</strong><sup>*</sup>.
+        The first athlete through the 1km mark in each elite race takes home a <strong>$150</strong> RunDNA Voucher <sup>*</sup>.
       </p>
 
       <h2 className="text-2xl font-bold mt-10 mb-2 text-[#00B28A]">Course Record Bonus</h2>
