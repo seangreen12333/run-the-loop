@@ -153,36 +153,39 @@ export default function Home() {
       </section>
 
       {/* SPONSORS */}
-     <section className="bg-[#102A43] py-20 px-6">
+    {/* SPONSORS */}
+<section className="bg-[#102A43] py-20 px-6 overflow-hidden">
   <h2 className="text-3xl md:text-4xl font-extrabold text-white text-center mb-10 border-b-4 border-lime-500 inline-block">
     Sponsors & Partners
   </h2>
-  <div className="w-full max-w-screen-xl mx-auto flex flex-wrap justify-between items-center gap-y-12">
 
-    <a href="https://www.athleticssa.com.au" target="_blank" rel="noopener noreferrer">
-      <img src="/sponsor1.png" alt="Athletics SA" className="h-20 w-auto mx-6" />
-    </a>
-
-    <a href="https://www.adelaideunisport.com.au" target="_blank" rel="noopener noreferrer">
-      <img src="/sponsor2.png" alt="Adelaide Uni Sport" className="h-20 w-auto mx-6" />
-    </a>
-
-    <a href="https://www.rundna.com.au/" target="_blank" rel="noopener noreferrer">
-      <img src="/rundna.png" alt="RunDNA" className="h-12 w-auto mx-6" />
-    </a>
-
-    <a href="https://revolutionise.com.au/auathletics" target="_blank" rel="noopener noreferrer">
-      <img src="/sponsor3.png" alt="Revolutionise Sport" className="h-20 w-auto mx-6" />
-    </a>
-
-    <a href="https://www.runningsa.com.au" target="_blank" rel="noopener noreferrer">
-      <img src="/sponsor4.png" alt="Running SA" className="h-20 w-auto mx-6" />
-    </a>
-
-    <a href="https://www.samastersathletics.org.au/" target="_blank" rel="noopener noreferrer">
-      <img src="/sponsor5.png" alt="SA Masters Athletics" className="h-20 w-auto mx-6" />
-    </a>
-
+  {/* Scrolling Container */}
+  <div className="relative w-full max-w-screen overflow-hidden">
+    <div className="flex items-center justify-start gap-16 animate-scroll whitespace-nowrap">
+      {/* duplicate set to make infinite loop */}
+      {[...Array(2)].map((_, i) => (
+        <div key={i} className="flex items-center gap-16">
+          <a href="https://www.athleticssa.com.au" target="_blank" rel="noopener noreferrer">
+            <img src="/sponsor1.png" alt="Athletics SA" className="h-24 w-auto" />
+          </a>
+          <a href="https://www.adelaideunisport.com.au" target="_blank" rel="noopener noreferrer">
+            <img src="/sponsor2.png" alt="Adelaide Uni Sport" className="h-24 w-auto" />
+          </a>
+          <a href="https://www.rundna.com.au" target="_blank" rel="noopener noreferrer">
+            <img src="/rundna.png" alt="RunDNA" className="h-20 w-auto" />
+          </a>
+          <a href="https://revolutionise.com.au/auathletics" target="_blank" rel="noopener noreferrer">
+            <img src="/sponsor3.png" alt="Adelaide Uni Athletics Club" className="h-24 w-auto" />
+          </a>
+          <a href="https://www.runningsa.com.au" target="_blank" rel="noopener noreferrer">
+            <img src="/sponsor4.png" alt="Running SA" className="h-24 w-auto" />
+          </a>
+          <a href="https://www.samastersathletics.org.au" target="_blank" rel="noopener noreferrer">
+            <img src="/sponsor5.png" alt="SA Masters Athletics" className="h-24 w-auto" />
+          </a>
+        </div>
+      ))}
+    </div>
   </div>
 </section>
 
