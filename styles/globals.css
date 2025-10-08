@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom animation for sponsor scroll */
-@keyframes scroll-x {
+@keyframes scroll {
   0% {
     transform: translateX(0);
   }
@@ -12,6 +11,8 @@
   }
 }
 
-.animate-scroll-x {
-  animation: scroll-x 20s linear infinite;
+.animate-scroll {
+  display: inline-flex;
+  animation: scroll 40s linear infinite;
 }
+
