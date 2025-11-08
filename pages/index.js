@@ -82,6 +82,22 @@ export default function Home() {
         </main>
       </div>
 
+{/* Bottom-right sponsor section */}
+  <div className="absolute bottom-6 right-6 text-right text-white">
+    <p className="text-sm font-normal mb-2">Major Sponsor</p>
+    <a
+      href="https://www.bridging-barriers.com.au/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/BB LOGO WHITE (3).png"
+        alt="Bridging Barriers Logo"
+        className="h-12 md:h-16 inline-block hover:opacity-90 transition-opacity duration-200"
+      />
+    </a>
+  </div>
+</div>
       {/* UNI LOOP SECTION */}
   <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
   <div className="md:w-1/2">
