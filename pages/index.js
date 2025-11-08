@@ -89,32 +89,23 @@ export default function Home() {
     </a>
   </main>
 
- {/* Bottom-right sponsor */}
-<div className="absolute bottom-6 right-6 z-10">
-  <a
-    href="https://www.bridging-barriers.com.au/"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Visit Bridging Barriers (Major Sponsor)"
-    className="flex flex-col items-end gap-2"
-  >
-    <span className="text-white/95 text-sm font-normal px-2 py-1 rounded
-                     bg-black/20 backdrop-blur-[2px]">
-      Major Sponsor
-    </span>
-
-    {/* If using next/image */}
-    {/* <Image src="/bb-logo-white-3.png" alt="Bridging Barriers" width={220} height={64}
-            className="h-10 md:h-14 w-auto hover:opacity-90 transition-opacity" /> */}
-
-    {/* If sticking with <img> */}
-    <img
-      src="/bb-logo-white-3.png"
-      alt="Bridging Barriers"
-      className="h-10 md:h-14 w-auto hover:opacity-90 transition-opacity"
-    />
-  </a>
+  {/* Bottom-right sponsor section */}
+  <div className="absolute bottom-6 right-6 text-right text-white">
+    <p className="text-sm font-normal mb-2">Major Sponsor</p>
+    <a
+      href="https://www.bridging-barriers.com.au/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/BB LOGO WHITE (3).png"
+        alt="Bridging Barriers Logo"
+        className="h-12 md:h-16 inline-block hover:opacity-90 transition-opacity duration-200"
+      />
+    </a>
+  </div>
 </div>
+
 
 
       {/* UNI LOOP SECTION */}
