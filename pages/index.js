@@ -65,24 +65,31 @@ export default function Home() {
           </div>
         )}
       </header>
+{/* Main Hero Section */}
+<div
+  className="relative min-h-screen bg-cover bg-center"
+  style={{ backgroundImage: "url('/background.jpg')" }}
+>
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
-      {/* Main Hero Section */}
-      <div className="relative min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('/background.jpg')" }}>
-        <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
-        <main className="relative z-10 text-white text-center pt-32 px-4">
-          <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
-            FRIDAY 16 JANUARY 2026 · 6:30 PM · Adelaide Uni Loop
-          </p>
-          <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
-          Kickstart 2026 with an official time on the iconic Uni Loop – The heart of Adelaide’s Running Legacy!
-          </h1>
-          <a href="https://www.revolutionise.com.au/auac/events/303529" className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg">
-            Sign Up Here
-          </a>
-        </main>
-      </div>
+  {/* Hero content */}
+  <main className="relative z-10 text-white text-center pt-32 px-4">
+    <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
+      FRIDAY 16 JANUARY 2026 · 6:30 PM · Adelaide Uni Loop
+    </p>
+    <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
+      Kickstart 2026 with an official time on the iconic Uni Loop – The heart of Adelaide’s Running Legacy!
+    </h1>
+    <a
+      href="https://www.revolutionise.com.au/auac/events/303529"
+      className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
+    >
+      Sign Up Here
+    </a>
+  </main>
 
-{/* Bottom-right sponsor section */}
+  {/* Bottom-right sponsor section */}
   <div className="absolute bottom-6 right-6 text-right text-white">
     <p className="text-sm font-normal mb-2">Major Sponsor</p>
     <a
@@ -98,6 +105,7 @@ export default function Home() {
     </a>
   </div>
 </div>
+
       {/* UNI LOOP SECTION */}
   <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
   <div className="md:w-1/2">
