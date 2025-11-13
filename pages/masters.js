@@ -18,7 +18,7 @@ export default function MastersRacePage() {
 
       <section className="max-w-6xl mx-auto px-4 py-16 text-[#102A43] space-y-6 text-lg">
         <p>
-          Kick off 2026 with purpose — and pace! This year, we're excited to be teaming up with <strong>SA Masters Athletics</strong> to offer special categories for <strong>Over 35</strong> and <strong>Over 55</strong> athletes.
+          Kick off 2026 with purpose — and pace! This year, we're excited to be teaming up with <strong>SA Masters Athletics</strong> to offer special categories for <strong>Over 35</strong> athletes.
         </p>
 
         <p>
@@ -26,7 +26,7 @@ export default function MastersRacePage() {
         </p>
 
         <p className="bg-[#E6FFFA] p-4 border-l-4 border-[#00B28A] rounded">
-          When entering, be sure to select <strong>O35</strong> or <strong>O55</strong> if you’d like to compete in the dedicated Masters categories. If you’d prefer to race in the Open waves based on seed time, you’re welcome to select Open instead.
+          When entering, be sure to select <strong>O35</strong> if you’d like to compete in the dedicated Masters category. If you’d prefer to race in the Open waves based on seed time, you’re welcome to select Open instead.
         </p>
 
         <p>
