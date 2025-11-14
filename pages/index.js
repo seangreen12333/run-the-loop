@@ -215,6 +215,11 @@ export default function Home() {
                  className="h-24 md:h-28 w-auto object-contain shrink-0" />
           </a>
 
+          <a href="https://oxenberry.com/" target="_blank" rel="noreferrer">
+            <img src="/ox.jpg" alt="Oxenberry Farm Wines"
+                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
+          </a>
+
           <a href="https://www.samastersathletics.org.au" target="_blank" rel="noreferrer">
             <img src="/sponsor5.png" alt="SA Masters Athletics"
                  className="h-24 md:h-28 w-auto object-contain shrink-0" />
