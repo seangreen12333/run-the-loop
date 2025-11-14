@@ -177,6 +177,52 @@ export default function Home() {
         </div>
       </section>
 
+      {/* MAJOR SPONSOR */}
+      <section className="bg-gray-50 py-20 px-6">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
+          <div className="md:w-2/3">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 relative inline-block">
+              <span className="relative z-10">Major Sponsor</span>
+              <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
+            </h2>
+            <p className="text-lg text-gray-800 mb-4">
+              <strong>Bridging Barriers</strong> is your trusted NDIS partner, empowering you to live with choice,
+              confidence and freedom.
+            </p>
+            <p className="text-lg text-gray-800 mb-4">
+              They are a dedicated disability support provider offering personalised NDIS services, including
+              Support Work, Support Coordination, Specialist Support Coordination, and Recovery Coaching. Their
+              person-centred, compassionate approach ensures every participant receives tailored care, guidance,
+              and opportunities that reflect their unique needs and aspirations.
+            </p>
+            <a
+              href="https://www.bridging-barriers.com.au/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 text-[#00B28A] font-semibold hover:underline"
+            >
+              Learn more at bridging-barriers.com.au
+            </a>
+          </div>
+
+          <div className="md:w-1/3 flex justify-center md:justify-end">
+            <a
+              href="https://www.bridging-barriers.com.au/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/BB LOGO DARK BLUE (3).png"
+                alt="Bridging Barriers Logo"
+                className="w-56 max-w-full hover:opacity-90 transition-opacity duration-200"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+    
+
     {/* SPONSORS */}
 <section className="bg-[#102A43] py-20 px-6 overflow-hidden">
   <h2 className="text-3xl md:text-4xl font-extrabold text-white text-center mb-10 border-b-4 border-lime-500 inline-block">
