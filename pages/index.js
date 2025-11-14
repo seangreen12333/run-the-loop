@@ -89,26 +89,18 @@ export default function Home() {
     </a>
   </main>
 
-{/* Bottom-right sponsor section */}
-<div className="absolute bottom-6 right-6 text-left text-white flex flex-col space-y-1 md:space-y-2">
-
-  <p className="text-sm md:text-base font-normal">
-    Major Sponsor
-  </p>
-
+<div className="absolute bottom-6 right-6">
   <a
     href="https://www.bridging-barriers.com.au/"
     target="_blank"
     rel="noopener noreferrer"
-    className="block"
   >
     <img
       src="/BB LOGO WHITE (3).png"
       alt="Bridging Barriers Logo"
-      className="h-12 md:h-16 inline-block hover:opacity-90 transition-opacity duration-200"
+      className="h-14 md:h-20 hover:opacity-90 transition-opacity duration-200"
     />
   </a>
-
 </div>
 
 </div>
