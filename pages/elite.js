@@ -106,7 +106,7 @@ export default function EliteRacesPage() {
             </p>
             <p className="text-lg text-gray-800">
               Breaking one of these records will result in an extra <strong>$100</strong> bonus for
-             athlete who goes under the existing mark.
+             the first athlete who goes under the existing mark.
             </p>
           </div>
 
