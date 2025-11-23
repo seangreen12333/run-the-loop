@@ -90,28 +90,54 @@ export default function EliteRacesPage() {
         </div>
       </section>
 
-      {/* COURSE RECORD BONUS */}
+      {/* RUN THE TAN ENTRY */}
       <section className="bg-gray-50 py-20 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
           {/* Text - left */}
           <div className="md:w-1/2 text-left">
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-6 relative inline-block">
-              <span className="relative z-10">Course Record Bonus</span>
+              <span className="relative z-10">Run The Tan Entry</span>
               <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
             </h2>
             <p className="text-lg text-gray-800 mb-3">
-              The current women&apos;s record is held by <strong>Caitlin Adams</strong> in a time of{' '}
-              <strong>6:47</strong>, and the men&apos;s record is held by <strong>Jonathan Harris</strong> in a time of{' '}
-              <strong>5:59</strong>.
+              After conquering the Loop, our winners will get the chance to take on The Tan. Run The Tan have offered
+              free entry to both the elite male and elite female winners to their 2026 event on{' '}
+              <strong>Sunday 26th April 2026</strong>.
+            </p>
+            <p className="text-lg text-gray-800 mb-3">
+              This is another great run around an iconic part of Melbourne. It is a charity event that this year is
+              raising funds for men&apos;s mental health.
             </p>
             <p className="text-lg text-gray-800">
-              Breaking one of these records will result in an extra <strong>$100</strong> bonus for
-             the first athlete who goes under the existing mark.
+              For more information, head to their website{' '}
+              <a
+                href="https://runthetan.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#00B28A] font-semibold hover:underline"
+              >
+                here
+              </a>
+              .
             </p>
           </div>
 
-          {/* Record images - right */}
-          <div className="md:w-1/2">
+          {/* Run The Tan logo - right */}
+          <div className="md:w-1/2 flex justify-center">
+            <img
+              src="/RTT_2026.png"
+              alt="Run The Tan 2026 logo"
+              className="max-h-40 w-auto object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* COURSE RECORD BONUS */}
+      <section className="bg-white py-20 px-6">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+          {/* Record images - left */}
+          <div className="md:w-1/2 order-1">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img
                 src="/record1.jpg"
@@ -125,6 +151,23 @@ export default function EliteRacesPage() {
               />
             </div>
           </div>
+
+          {/* Text - right */}
+          <div className="md:w-1/2 text-left md:text-right order-2">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-6 relative inline-block md:ml-auto">
+              <span className="relative z-10">Course Record Bonus</span>
+              <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
+            </h2>
+            <p className="text-lg text-gray-800 mb-3">
+              The current women&apos;s record is held by <strong>Caitlin Adams</strong> in a time of{' '}
+              <strong>6:47</strong>, and the men&apos;s record is held by <strong>Jonathan Harris</strong> in a time of{' '}
+              <strong>5:59</strong>.
+            </p>
+            <p className="text-lg text-gray-800">
+              Breaking one of these records will result in an extra <strong>$100</strong> bonus for the first athlete
+              who goes under the existing mark.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -132,7 +175,6 @@ export default function EliteRacesPage() {
       <section className="max-w-6xl mx-auto px-4 pb-10 pt-6 text-center text-[#102A43]">
         <p className="text-lg mt-4">Think you&apos;ve got what it takes? Time to conquer the Loop.</p>
       </section>
-
 
       <Footer />
     </>
