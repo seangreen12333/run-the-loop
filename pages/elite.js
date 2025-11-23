@@ -22,7 +22,7 @@ export default function EliteRacesPage() {
           Come and see the best of Adelaide&apos;s distance runners battle it out for glory on the Uni Loop!
         </p>
         <p>
-          Two showpiece events — one male, one female — feature the fastest runners around. These elite fields will race
+          Our showcase races — one male, one female will feature Adelaide&apos;s fastest runners. These elite fields will race
           for cash, trophies, and the prestigious title of <strong>Uni Loop Champion</strong>.
         </p>
       </section>
@@ -80,9 +80,9 @@ export default function EliteRacesPage() {
             </h2>
             <p className="text-lg text-gray-800 mb-3">
               New for 2026, the first male and female elite athletes to pass the 1&nbsp;km mark in their race will each
-              receive a <strong>$150</strong> RunDNA voucher<sup>*</sup>.
+              receive a <strong>$150</strong> RunDNA voucher.
             </p>
-            <p className="text-sm md:text-base text-gray-700">
+            <p className="text-xs md:text-sm text-gray-700 leading-snug">
               If two or more athletes cannot be separated at the 1&nbsp;km mark, the RunDNA 1K bonus will be awarded to
               the athlete who finishes highest among the tied group at the finish line.
             </p>
@@ -105,8 +105,8 @@ export default function EliteRacesPage() {
               <strong>5:59</strong>.
             </p>
             <p className="text-lg text-gray-800">
-              Breaking one of these records will result in an extra <strong>$100</strong> bonus for the{' '}
-              <em>first</em> athlete in each elite race to go under the existing mark<sup>*</sup>.
+              Breaking one of these records will result in an extra <strong>$100</strong> bonus for
+             athlete who goes under the existing mark.
             </p>
           </div>
 
@@ -133,12 +133,6 @@ export default function EliteRacesPage() {
         <p className="text-lg mt-4">Think you&apos;ve got what it takes? Time to conquer the Loop.</p>
       </section>
 
-      {/* Footnote */}
-      <p className="text-sm italic text-gray-600 max-w-6xl mx-auto px-4 pb-10">
-        <sup>*</sup> Athletes must complete the race with a bona fide effort to be eligible for bonuses. Only the first
-        athlete to break the course record in each race receives the Course Record Bonus. Bonuses may be awarded in the
-        form of vouchers of equivalent value.
-      </p>
 
       <Footer />
     </>
