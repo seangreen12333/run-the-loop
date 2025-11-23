@@ -19,41 +19,39 @@ export default function SeededRacesPage() {
 
       {/* MAIN COPY */}
       <section className="max-w-6xl mx-auto px-4 py-16 text-[#102A43] space-y-6 text-lg">
-        <p>Start the new year with a lap of the legendary Uni Loop!</p>
+        <p>Start the new year with a lap of the legendary Uni Loop.</p>
 
         <p>
           Runners will be placed into waves of roughly 10 participants based on your
-          seed time. This means you’ll be racing shoulder-to-shoulder with others of
-          similar ability — the perfect environment to push for a strong finish or a
-          brand new personal best.
+          seed time. This places you alongside runners of similar ability and creates
+          the perfect environment to push for a strong finish or a new personal best.
         </p>
 
         <p>
-          Whether you’re chasing down a goal, building back fitness, or just want to
-          kick off 2026 with a great vibe, this event is for you.
+          Whether you are chasing down a goal, building back fitness, or simply want
+          to begin 2026 with a great vibe, this event is for you.
         </p>
 
         <p>
           Many participants use this as a launchpad for their New Year fitness
-          resolutions — and there’s no better motivation than a timed race with great
-          energy!
+          resolutions. A timed race with great energy is hard to beat for motivation.
         </p>
 
         <p>
-          Everyone who completes their lap receives a <strong>Run the Loop finisher pin</strong> — a perfect
-          memento to mark the first race of the year.
+          Everyone who completes their lap receives a <strong>Run the Loop finisher pin</strong>.
+          It is a simple and meaningful way to mark your first race of the year.
         </p>
 
         <p>
-          The Loop isn’t just about the race — it’s about the people. Bring your
-          family and friends to cheer you on, or stick around and support others
+          The Loop is as much about community as it is about racing. Bring your
+          family and friends to cheer you on, or stay around and support others
           chasing their own goals.
         </p>
 
         <p>
-          Stay around afterward to watch the elite athletes go head-to-head in their
-          quest for Uni Loop glory. It’s a Friday afternoon well spent — fast laps,
-          fresh goals, and a whole lot of heart.
+          Many runners also stay afterward to watch the elite athletes compete for
+          Uni Loop honours. It is a Friday afternoon with fast laps, new goals, and
+          plenty of heart.
         </p>
       </section>
 
@@ -68,6 +66,7 @@ export default function SeededRacesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             {/* Text column */}
             <div className="space-y-6 text-[#102A43] text-lg">
+              
               {/* RunDNA Giveaway */}
               <div>
                 <h3 className="text-2xl font-bold mb-2 text-teal-700">
@@ -85,10 +84,12 @@ export default function SeededRacesPage() {
                 <h3 className="text-2xl font-bold mb-2 text-teal-700">
                   Oxenberry Farm Wine Giveaway
                 </h3>
-                <p className="text-slate-800">
+                <p className="text-slate-800 mb-1">
                   Thanks to <strong>Oxenberry Farm</strong>, we also have four bottles of wine
-                  to give away as random prizes among participants. It&apos;s a small thank you
-                  for starting your year with Run the Loop.
+                  to give away as random prizes.
+                </p>
+                <p className="text-sm text-slate-600 italic">
+                  Recipients must be 18+.
                 </p>
               </div>
 
@@ -98,9 +99,9 @@ export default function SeededRacesPage() {
                   On-the-day Refreshments
                 </h3>
                 <p className="text-slate-800">
-                  Refreshments will be provided, including fresh fruit, a BBQ{' '}
-                  <span className="italic">(pending fire restrictions)</span>, and everyone&apos;s
-                  favourite chocolate milk!
+                  Refreshments will be available, including fresh fruit, a BBQ{' '}
+                  <span className="italic">(pending fire restrictions)</span>, and everyone’s
+                  favourite chocolate milk.
                 </p>
               </div>
             </div>
@@ -131,7 +132,7 @@ export default function SeededRacesPage() {
           </div>
 
           <p className="mt-10 text-center text-lg font-semibold text-[#102A43]">
-            Ready to kick off 2026 the right way? Let&apos;s conquer the Loop.
+            Ready to begin 2026 the right way? Let&apos;s conquer the Loop.
           </p>
         </div>
       </section>
