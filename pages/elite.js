@@ -22,7 +22,7 @@ export default function EliteRacesPage() {
           Come and see the best of Adelaide&apos;s distance runners battle it out for glory on the Uni Loop!
         </p>
         <p>
-          Our showcase events two elite races that will feature Adelaide&apos;s fastest runners. These elite fields will race
+          Our showcase events! Two elite races that will feature Adelaide&apos;s fastest runners. These elite fields will race
           for cash, trophies, and the prestigious title of <strong>Uni Loop Champion</strong>.
         </p>
       </section>
