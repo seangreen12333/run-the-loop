@@ -72,7 +72,7 @@ export default function SeededRacesPage() {
                   Oxenberry Farm Wine Giveaway
                 </h3>
                 <p className="text-slate-800 mb-1">
-                  Thanks to <strong>Oxenberry Farm</strong>, we also have four bottles of wine
+                  Thanks to <strong>Oxenberry Farm</strong>, we also have six bottles of wine
                   to give away as random prizes.
                 </p>
                 <p className="text-sm text-slate-600 italic">
