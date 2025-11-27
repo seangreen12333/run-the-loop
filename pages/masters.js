@@ -19,7 +19,7 @@ export default function MastersRacePage() {
       <section className="max-w-6xl mx-auto px-4 py-16 text-[#102A43] space-y-8 text-lg">
         <p>
           Kick off 2026 with purpose and pace. This year, we're excited to be teaming up with{' '}
-          <strong>SA Masters Athletics</strong> to offer special categories for <strong>Over 35</strong> athletes.
+          <strong>SA Masters Athletics</strong> to offer special categories for <strong>Over 35</strong> and <strong>Over 55</strong> athletes.
         </p>
 
         <p className="bg-[#E6FFFA] p-4 border-l-4 border-[#00B28A] rounded">
@@ -31,13 +31,13 @@ export default function MastersRacePage() {
         </p>
 
         <p>
-          Whether you're chasing a time, setting a goal, or simply enjoying the thrill of racing around Adelaide’s most
-          iconic loop, this is the event for you. It’s a celebration of experience, fitness, and community.
+          Whether you're chasing a time, setting a goal, or simply enjoying a run around Adelaide’s most
+          iconic loop, this is the event for you.
         </p>
 
         <p className="bg-[#E6FFFA] p-4 border-l-4 border-[#00B28A] rounded">
-          When entering, be sure to select <strong>O35</strong> if you’d like to compete in the dedicated Masters category.
-          If you’d prefer to race in the Open waves based on seed time, you’re welcome to select Open instead.
+          When entering, be sure to select Yes to the Masters Category if you’d like to compete in the dedicated Masters race. Age groups beyond that will be determined by date of birth.
+          If you’d prefer to race in the Open waves based on seed time, you’re welcome to select Open instead, but will not be eigible for Masters prizes.
         </p>
 
         {/* MASTERS PRIZES SECTION */}
