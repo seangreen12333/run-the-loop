@@ -26,7 +26,7 @@ export default function JuniorRacePage() {
         </p>
 
         <p>
-          Junior athletes will compete within the open seeded races — this means you'll be placed with athletes of similar ability to ensure fast and competitive racing. Junior results will be extracted from official chip times.
+          Junior athletes will compete within the open seeded races. This means you'll be placed with athletes of similar ability to ensure fast and competitive racing. Junior results will be extracted from official chip times.
         </p>
 
         {/* U18 PRIZES SPLIT SECTION */}
@@ -64,7 +64,7 @@ export default function JuniorRacePage() {
         </div>
 
         <p className="mt-10">
-          Whether you’re a rising star or just want to be part of the excitement, we’d love to see you out there. Bring your energy, your teammates, and your supporters — it's going to be a great afternoon.
+          Whether you’re a rising star or just want to be part of the excitement, we’d love to see you out there. Bring your teammates, and your supporters; it's going to be a great afternoon.
         </p>
       </section>
 
