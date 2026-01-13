@@ -67,7 +67,7 @@ export default function StartList2026() {
 
 <p>
   Rounding out our elite field are James McManus, Harry McGregor, Casey Atkinson,
-  Joe Cross, Harrison Wade and Bailey Giles, all capable of upsetting the favourites
+  Joe Cross, Harrison Wade, Zac Connell, and Bailey Giles, all capable of upsetting the favourites
   and claiming the Uni Loop crown.
 </p>
 
