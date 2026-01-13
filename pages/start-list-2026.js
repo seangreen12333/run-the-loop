@@ -19,6 +19,21 @@ export default function StartList2026() {
       {/* CONTENT */}
       <section className="max-w-6xl mx-auto px-4 py-16 text-[#102A43] space-y-6 text-lg">
 
+        {/* START LIST / LIVE RESULTS BUTTON */}
+<section className="bg-[#F5F7FA] py-6">
+  <div className="max-w-6xl mx-auto px-4 flex justify-center">
+    <a
+      href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202026"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-[#00B28A] hover:bg-[#009A77] text-white font-bold text-lg px-8 py-4 rounded-lg shadow-md transition-colors duration-200"
+    >
+      Start List &amp; Live Results Here
+    </a>
+  </div>
+</section>
+
+
         {/* SUBHEADING */}
 <h2 className="text-3xl font-bold">
   Men's Elite Race Preview
