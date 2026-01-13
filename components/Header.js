@@ -18,6 +18,7 @@ export default function Header() {
 
       {/* Desktop Nav */}
       <nav className="hidden md:flex space-x-6 text-white font-semibold text-lg items-center">
+        <Link href="/start-list-2026"> <span className="hover:text-[#00B28A]">2026 Start List</span> </Link>
         <Link href="/elite"><span className="hover:text-[#00B28A]">Elite Races</span></Link>
         <Link href="/seeded"><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
         <Link href="/masters"><span className="hover:text-[#00B28A]">Masters Race</span></Link>
@@ -55,6 +56,7 @@ export default function Header() {
           >
             Enter Here
           </a>
+          <Link href="/start-list-2026" onClick={() => setIsOpen(false)}> <span className="hover:text-[#00B28A]">2026 Start List</span> </Link>
           <Link href="/elite" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Elite Races</span></Link>
           <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
           <Link href="/masters" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Masters Race</span></Link>
