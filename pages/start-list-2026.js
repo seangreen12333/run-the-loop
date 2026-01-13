@@ -33,6 +33,21 @@ export default function StartList2026() {
   </div>
 </section>
 
+{/* TIMETABLE */}
+<h2 className="text-3xl font-bold mt-12">
+  Timetable
+</h2>
+
+<ul className="space-y-2 text-lg">
+  <li>Master (O35 and O55) women – 6:15</li>
+  <li>Masters (O35 and O55) Men – 6:35</li>
+  <li>Open C Race – 6:55</li>
+  <li>Open B Race – 7:15</li>
+  <li>Open A Race – 7:30</li>
+  <li>Elite Women – 7:40</li>
+  <li>Elite Men – 7:50</li>
+</ul>
+
 
         {/* SUBHEADING */}
 <h2 className="text-3xl font-bold">
