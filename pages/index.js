@@ -50,12 +50,12 @@ export default function Home() {
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-[#102A43] shadow-md md:hidden flex flex-col space-y-4 p-6 text-lg font-semibold z-40">
             <a
-              href="https://www.revolutionise.com.au/auac/events/303529"
+              href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202026"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
             >
-              Enter Here
+              2026 Start List
             </a>
             <Link href="/elite" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Elite Races</span></Link>
             <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
@@ -82,10 +82,10 @@ export default function Home() {
       Kickstart 2026 with an official time on the iconic Uni Loop – The heart of Adelaide’s Running Legacy!
     </h1>
     <a
-      href="https://www.revolutionise.com.au/auac/events/303529"
+      href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202026"
       className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
     >
-      Sign Up Here
+      2026 Start List
     </a>
   </main>
 
