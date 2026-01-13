@@ -25,7 +25,11 @@ export default function StartList2026() {
 </h2>
 
 <p>
-  late or sit back and trust their finish over the final few hundred metres.
+  With prizes on offer at the 1 km mark as well as the finish, this year’s men’s elite race is going to be a fascinating tactical battle. 
+  Early leaders may be chasing the RunDNA 1km prize which will force the contenders to make a decision: 
+  go with the surge and risk paying for it late or sit back and trust their finish over the final few hundred metres.
+  So who are our top contenders:
+
   <br />
   So who are our top contenders:
 </p>
