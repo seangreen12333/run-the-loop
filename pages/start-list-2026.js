@@ -107,6 +107,21 @@ export default function StartList2026() {
 
       </section>
 
+    {/* REGULATIONS / PRIZES */}
+<section className="max-w-6xl mx-auto px-4 pb-12 text-sm text-[#627D98]">
+  <p>
+    Technical and prize regulations apply. Full details can be found in the{' '}
+    <a
+      href="/Run_The_loop_prizes.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline hover:text-[#00B28A]"
+    >
+      Run The Loop prize regulations
+    </a>.
+  </p>
+</section>
+
       <Footer />
     </>
   );
