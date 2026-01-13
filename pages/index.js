@@ -26,12 +26,12 @@ export default function Home() {
           <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
           <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
           <a
-            href="https://www.revolutionise.com.au/auac/events/303529"
+            href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202026"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
           >
-            Enter Here
+            2026 Start List
           </a>
         </nav>
 
