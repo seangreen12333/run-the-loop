@@ -107,7 +107,7 @@ export default function StartList2026() {
 
 {/* WOMEN'S ELITE RACE */}
 <h2 className="text-3xl font-bold mt-12">
-  Run the Loop – Women’s Elite field
+  Women's Elite Race Preview
 </h2>
 
 <p>
