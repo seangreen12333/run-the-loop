@@ -84,7 +84,7 @@ export default function StartList2026() {
 </p>
 
     <h3 className="text-2xl font-semibold mt-6">
-  Michael Nitschke
+ Cooper Giles
 </h3>
 <p>
   Third in 2025, Cooper Giles will look to improve his 6:04 PB. Whether he’s better
