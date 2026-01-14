@@ -63,7 +63,9 @@ export default function StartList2026() {
   <br />
   So who are our top contenders:
 </p>
-
+<h3 className="text-2xl font-semibold mt-6">
+  Matthew Clarke
+</h3>
 <p>
   Headlining the men’s elite field is Matt Clarke. The four-time national champion
   and two-time Olympic steeplechaser has called the Uni Loop his home since 2020.
@@ -71,6 +73,9 @@ export default function StartList2026() {
   for Team Tempo and to find out just how fast he can Run The Loop.
 </p>
 
+    <h3 className="text-2xl font-semibold mt-6">
+ Adrian Potter
+</h3>
 <p>
   Adrian Potter returns after a runner-up finish in 6:01 last year. With the defending
   record holder absent, the Adelaide Harriers athlete will be eyeing the 5:59 course
@@ -78,13 +83,18 @@ export default function StartList2026() {
   and presents a different challenge to his usual home of the southern parklands.
 </p>
 
+    <h3 className="text-2xl font-semibold mt-6">
+  Michael Nitschke
+</h3>
 <p>
   Third in 2025, Cooper Giles will look to improve his 6:04 PB. Whether he’s better
   known for his love of Dairy Farmers chocolate milk or his devastating kick is up
   for debate; but one thing’s certain, if the Adelaide Uni athlete is still there with
   200 m to go, the rest of the field may start to worry.
 </p>
-
+<h3 className="text-2xl font-semibold mt-6">
+  Arron Nitschke
+</h3>
 <p>
   Expect Arron Nitschke to make it an honest race from the front. The Australian
   duathlete brings a huge aerobic engine, and while this is his first official Loop
