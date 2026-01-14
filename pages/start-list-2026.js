@@ -53,7 +53,10 @@ export default function StartList2026() {
 <h2 className="text-3xl font-bold">
   Men's Elite Race Preview
 </h2>
-
+<p>
+  Record: Jonathan Harris – 5:59 (2025)
+</p>
+  
 <p>
   With prizes on offer at the 1 km mark as well as the finish, this year’s men’s elite race is going to be a fascinating tactical battle. 
   Early leaders may be chasing the RunDNA 1km prize which will force the contenders to make a decision: 
