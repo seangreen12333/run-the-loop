@@ -32,16 +32,17 @@ export default function ResultsPage() {
             </thead>
             <tbody>
               {[
-                ['1', 'Jonathan Harris', '05:59', '2025'],
-                ['2', 'Adrian Potter', '06:01', '2025'],
-                ['3', 'Cooper Giles', '06:04', '2025'],
-                ['4', 'Lachlan Hall', '06:07', '2025'],
-                ['5', 'Thomas Dowd', '06:10', '2025'],
-                ['6', 'Max Spurling', '06:14', '2025'],
-                ['7', 'Torben Roberts', '06:16', '2025'],
-                ['7', 'Alex Rawley', '06:16', '2025'],
-                ['9', 'Bailey Giles', '06:21', '2025'],
-                ['10', 'Tom Kavanagh', '06:24', '2025'],
+                ['1', 'Matthew Clarke', '05:52', '2026'],
+                ['2', 'Adrian Potter', '05:58', '2026'],
+                ['3', 'Jonathan Harris', '05:59', '2025'],
+                ['4', 'Arron Nitschke', '06:03', '2026'],
+                ['5', 'Cooper Giles', '06:04', '2025'],
+                ['6', 'Lachlan Hall', '06:07', '2025'],
+                ['7', 'Casey Atkinson', '06:08', '2026'],
+                ['8', 'Thomas Dowd', '06:10', '2025'],
+                ['9', 'Joe Cross', '06:14', '2026'],
+                ['9', 'Max Spurling', '06:14', '2025'],
+              
               ].map(([rank, name, time, year], i) => (
                 <tr key={i} className="border-t border-gray-100">
                   <td>{rank}</td><td>{name}</td><td>{time}</td><td>{year}</td>
@@ -71,15 +72,15 @@ export default function ResultsPage() {
             <tbody>
               {[
                 ['1', 'Caitlin Adams', '06:47', '2025'],
-                ['2', 'Amelia Sheridan', '06:52', '2025'],
-                ['3', 'Hannah Tourneur', '07:09', '2025'],
-                ['4', 'Eva Flint', '07:18', '2025'],
-                ['5', 'Emma Henkel', '07:21', '2025'],
-                ['6', 'Monique Hollick', '07:23', '2025'],
-                ['7', 'Leni Knowles', '07:33', '2025'],
-                ['7', 'Sofia Heyward', '07:36', '2025'],
-                ['9', 'Gracie Sheridan', '07:37', '2025'],
-                ['10', 'Zoe Sheridan', '07:40', '2025'],
+                ['2', 'Amelia Sheridan', '06:48', '2026'],
+                ['3', 'Hannah Tourneur', '06:50', '2026'],
+                ['4', 'Tilly Williams', '06:51', '2026'],
+                ['5', 'Eva Flint', '06:56', '2026'],
+                ['6', 'Brooke Hines', '07:11', '2026'],
+                ['7', 'Gracie Sheridan', '07:12', '2026'],
+                ['8', 'Monique Hollick', '07:16', '2026'],
+                ['9', 'Emma Henkel', '07:21', '2025'],
+                ['10', 'Sofia Heyward', '07:28', '2026'],
               ].map(([rank, name, time, year], i) => (
                 <tr key={i} className="border-t border-gray-100">
                   <td>{rank}</td><td>{name}</td><td>{time}</td><td>{year}</td>
