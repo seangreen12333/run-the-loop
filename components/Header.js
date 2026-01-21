@@ -18,19 +18,18 @@ export default function Header() {
 
       {/* Desktop Nav */}
       <nav className="hidden md:flex space-x-6 text-white font-semibold text-lg items-center">
-        <Link href="/start-list-2026"> <span className="hover:text-[#00B28A]">2026 Start List</span> </Link>
         <Link href="/elite"><span className="hover:text-[#00B28A]">Elite Races</span></Link>
         <Link href="/seeded"><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
         <Link href="/masters"><span className="hover:text-[#00B28A]">Masters Race</span></Link>
         <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
         <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
         <a
-          href="https://www.revolutionise.com.au/auac/events/303529"
+          href="https://www.bridging-barriers.com.au/"
           target="_blank"
           rel="noopener noreferrer"
           className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
         >
-          Enter Here
+          Bridging Barriers
         </a>
       </nav>
 
@@ -49,14 +48,13 @@ export default function Header() {
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-[#102A43] shadow-md md:hidden flex flex-col space-y-4 p-6 text-lg font-semibold z-40">
           <a
-            href="https://www.revolutionise.com.au/auac/events/303529"
+            href="https://www.bridging-barriers.com.au/"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
           >
-            Enter Here
+            Bridging Barriers
           </a>
-          <Link href="/start-list-2026" onClick={() => setIsOpen(false)}> <span className="hover:text-[#00B28A]">2026 Start List</span> </Link>
           <Link href="/elite" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Elite Races</span></Link>
           <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
           <Link href="/masters" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Masters Race</span></Link>
