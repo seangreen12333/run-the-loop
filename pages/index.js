@@ -26,12 +26,12 @@ export default function Home() {
           <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
           <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
           <a
-            href="https://www.runtheloop.org/"
+            href="https://www.bridging-barriers.com.au/"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
           >
-            Run The Loop
+            Bridging Barriers
           </a>
         </nav>
 
@@ -50,12 +50,12 @@ export default function Home() {
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-[#102A43] shadow-md md:hidden flex flex-col space-y-4 p-6 text-lg font-semibold z-40">
             <a
-              href="https://www.runtheloop.org/start-list-2026"
+              href="https://www.bridging-barriers.com.au/"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
             >
-              2026 Start List
+              Bridging Barriers
             </a>
             <Link href="/elite" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Elite Races</span></Link>
             <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
@@ -82,10 +82,10 @@ export default function Home() {
       Kickstart 2026 with an official time on the iconic Uni Loop – The heart of Adelaide’s Running Legacy!
     </h1>
     <a
-      href="https://www.runtheloop.org/start-list-2026"
+      href="https://www.bridging-barriers.com.au/"
       className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
     >
-      2026 Start List
+      Bridging Barriers
     </a>
   </main>
 
