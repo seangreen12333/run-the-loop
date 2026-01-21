@@ -98,16 +98,29 @@ export default function ResultsPage() {
           Download Full Female Rankings (Excel)
         </a>
 
-        {/* Previous Years */}
-        <h2 className="text-3xl font-bold mt-16 mb-6">Previous Years</h2>
-        <a
-          href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202025"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-[#102A43] hover:bg-[#0c1d33] text-white font-bold py-2 px-6 rounded-lg"
-        >
-          2025 Results
-        </a>
+     {/* Previous Years */}
+<h2 className="text-3xl font-bold mt-16 mb-6">Previous Years</h2>
+
+<div className="flex flex-wrap gap-4">
+  <a
+    href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202025"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-[#102A43] hover:bg-[#0c1d33] text-white font-bold py-2 px-6 rounded-lg"
+  >
+    2025 Results
+  </a>
+
+  <a
+    href="https://sarrc.asn.au/Race_Results/showCB?Race=auac%20run%20the%20loop%202026"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-[#102A43] hover:bg-[#0c1d33] text-white font-bold py-2 px-6 rounded-lg"
+  >
+    2026 Results
+  </a>
+</div>
+
       </section>
 
       {/* Footer */}
