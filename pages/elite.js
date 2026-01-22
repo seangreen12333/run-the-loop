@@ -160,8 +160,8 @@ export default function EliteRacesPage() {
             </h2>
             <p className="text-lg text-gray-800 mb-3">
               The current women&apos;s record is held by <strong>Caitlin Adams</strong> in a time of{' '}
-              <strong>6:47</strong>, and the men&apos;s record is held by <strong>Jonathan Harris</strong> in a time of{' '}
-              <strong>5:59</strong>.
+              <strong>6:47</strong>, and the men&apos;s record is held by <strong>Matthew Clarke</strong> in a time of{' '}
+              <strong>5:52</strong>.
             </p>
             <p className="text-lg text-gray-800">
               Breaking one of these records will result in an extra <strong>$100</strong> bonus for the first athlete
