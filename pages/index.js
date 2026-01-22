@@ -177,6 +177,21 @@ export default function Home() {
         </div>
       </section>
 
+{/* COMPETITION RULES LINK */}
+<section className="bg-white pb-6 px-6 max-w-7xl mx-auto text-center">
+  <p className="text-sm text-gray-600">
+    <a
+      href="/Run_The_loop_prizes.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline hover:text-[#102A43]"
+    >
+      Competition rules here
+    </a>
+  </p>
+</section>
+
+
       {/* MAJOR SPONSOR */}
       <section className="bg-gray-50 py-20 px-6">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
