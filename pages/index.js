@@ -50,12 +50,12 @@ export default function Home() {
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-[#102A43] shadow-md md:hidden flex flex-col space-y-4 p-6 text-lg font-semibold z-40">
             <a
-              href="https://www.bridging-barriers.com.au/"
+              href="https://www.revolutionise.com.au/auac/events/register/381074/?t=777394"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
             >
-              Bridging Barriers
+              Sign Up Here
             </a>
             <Link href="/elite" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Elite Races</span></Link>
             <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
