@@ -76,10 +76,10 @@ export default function Home() {
   {/* Hero content */}
   <main className="relative z-10 text-white text-center pt-32 px-4">
     <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
-      FRIDAY 16 JANUARY 2026 · 6:30 PM · Adelaide Uni Loop
+      FRIDAY 15 JANUARY 2027 · 6:00 PM · Adelaide Uni Loop
     </p>
     <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
-      Kickstart 2026 with an official time on the iconic Uni Loop – The heart of Adelaide’s Running Legacy!
+      Kickstart 2027 with an official time on the iconic Uni Loop – The heart of Adelaide’s Running Legacy!
     </h1>
     <a
       href="https://www.bridging-barriers.com.au/"
@@ -163,7 +163,7 @@ export default function Home() {
           <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
         </h2>
         <p className="text-lg text-gray-800 mb-4"><strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.</p>
-        <p className="text-lg text-gray-800 mb-4"><strong>When:</strong> Friday 16th January 2026</p>
+        <p className="text-lg text-gray-800 mb-4"><strong>When:</strong> Friday 17th January 2027</p>
         <p className="text-lg text-gray-800"><strong>Time:</strong> First race starts at 6:30 PM</p>
         <a href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A" target="_blank" rel="noopener noreferrer" className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md">Location</a>
       </section>
