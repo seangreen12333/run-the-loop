@@ -164,7 +164,7 @@ export default function Home() {
         </h2>
         <p className="text-lg text-gray-800 mb-4"><strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.</p>
         <p className="text-lg text-gray-800 mb-4"><strong>When:</strong> Friday 17th January 2027</p>
-        <p className="text-lg text-gray-800"><strong>Time:</strong> First race starts at 6:30 PM</p>
+        <p className="text-lg text-gray-800"><strong>Time:</strong> First race starts at 6:00 PM</p>
         <a href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A" target="_blank" rel="noopener noreferrer" className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md">Location</a>
       </section>
 
