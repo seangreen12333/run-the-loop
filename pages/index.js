@@ -138,17 +138,19 @@ export default function Home() {
             <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
           </h2>
           <ul className="space-y-4 text-lg text-gray-800 list-disc list-inside">
-            <li>Get an official time around Adelaide's iconic Uni Loop! Timing is provided by SA Road Runners Club & City-Bay Fun Run.</li>
-            <li>Runners are seeded into heats of ~10 athletes based on seed times.</li>
-            <li>Each heat runs individually — one finishes before the next begins.</li>
+            <li>Get an official time around Adelaide's iconic Uni Loop! Timing is provided by The City-Bay Fun Run.</li>
+            <li>Runners are seeded into heats of 10-15 athletes based on seed times.</li>
+            <li>Each heat runs individually (one finishes before the next begins).</li>
             <li>The two fastest heats will be designated as the elite races.</li>
             <li>All finishers receive a custom finisher pin.</li>
             <li>With prizes awarded to:
               <ul className="list-disc list-inside ml-6 mt-2">
+                 <li>Top male and female in each race</li>
                 <li>Top 3 male and female elite athletes</li>
                 <li>Fastest male and female athlete to the 1000 m mark</li>
                 <li>Top 3 U18 male and female athletes</li>
-                <li>Top masters athletes (Specifics TBD)</li>
+                <li>Top masters athletes</li>
+                <li>Plus, plenty of giveaways!</li>
               </ul>
             </li>
             <li>For a full breakdown of prize categories, see the links above.</li>
