@@ -26,12 +26,12 @@ export default function Home() {
           <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
           <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
           <a
-            href="https://www.bridging-barriers.com.au/"
+            href="https://www.revolutionise.com.au/auac/events/381074"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
           >
-            Bridging Barriers
+            Sign Up Here
           </a>
         </nav>
 
@@ -118,7 +118,7 @@ export default function Home() {
       The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10).
     </p>
     <p className="text-lg mb-4">
-      The run starts at the 0 marker on Mackinnon Parade and heads west towards Adelaide Oval for 600m. The loop then arcs left towards Adelaide Zoo, before turning left again and winding back to run [...]
+      The run starts at the 0 marker on Mackinnon Parade and heads west towards Adelaide Oval for 600m. The loop then arcs left towards Adelaide Zoo, before turning left again and winding back East for a flat first 1200m. This is followed by a 200m descent then 200m climb short climb leaving the runners with 600m left of flat running to complete the loop.
     </p>
   </div>
   <div className="md:w-1/2">
