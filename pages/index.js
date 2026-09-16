@@ -156,26 +156,54 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WHERE & WHEN SECTION */}
-      <section className="bg-gray-50 py-20 px-6 max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 relative inline-block">
-          <span className="relative z-10">Where & When?</span>
-          <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
-        </h2>
-        <p className="text-lg text-gray-800 mb-4"><strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.</p>
-        <p className="text-lg text-gray-800 mb-4"><strong>When:</strong> Friday 17th January 2027</p>
-        <p className="text-lg text-gray-800"><strong>Time:</strong> First race starts at 6:00 PM</p>
-        <a href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A" target="_blank" rel="noopener noreferrer" className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounde[...]
-      </section>
+     {/* WHERE & WHEN SECTION */}
+<section className="bg-gray-50 py-20 px-6 max-w-5xl mx-auto text-center">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 relative inline-block">
+    <span className="relative z-10">Where & When?</span>
+    <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
+  </h2>
 
-      {/* COURSE RECORDS */}
-      <section className="bg-white py-20 px-6 max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] border-b-4 border-lime-500 inline-block pb-2 mb-10">Course Records</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <img src="/record1.jpg" alt="Female Record" className="w-1/2 mx-auto rounded shadow-md" />
-          <img src="/record2.jpg" alt="Male Record" className="w-1/2 mx-auto rounded shadow-md" />
-        </div>
-      </section>
+  <p className="text-lg text-gray-800 mb-4">
+    <strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.
+  </p>
+
+  <p className="text-lg text-gray-800 mb-4">
+    <strong>When:</strong> Friday 15th January 2027
+  </p>
+
+  <p className="text-lg text-gray-800">
+    <strong>Time:</strong> First race starts at 6:00 PM
+  </p>
+
+  <a
+    href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
+  >
+    Location
+  </a>
+</section>
+
+{/* COURSE RECORDS */}
+<section className="bg-white py-20 px-6 max-w-7xl mx-auto text-center">
+  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] border-b-4 border-lime-500 inline-block pb-2 mb-10">
+    Course Records
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <img
+      src="/record1.jpg"
+      alt="Female Record"
+      className="w-1/2 mx-auto rounded shadow-md"
+    />
+    <img
+      src="/record2.jpg"
+      alt="Male Record"
+      className="w-1/2 mx-auto rounded shadow-md"
+    />
+  </div>
+</section>
 
 {/* COMPETITION RULES LINK */}
 <section className="bg-white pb-6 px-6 max-w-7xl mx-auto text-center">
