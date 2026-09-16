@@ -81,11 +81,12 @@ export default function Home() {
     <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
       Kickstart 2027 with an official time on the iconic Uni Loop!
     </h1>
+    </h1>
     <a
-      href="https://www.bridging-barriers.com.au/"
+      href="https://www.revolutionise.com.au/auac/events/381074"
       className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
     >
-      Bridging Barriers
+      Sign Up Now
     </a>
   </main>
 
