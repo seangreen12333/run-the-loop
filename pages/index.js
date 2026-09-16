@@ -81,6 +81,7 @@ export default function Home() {
     <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
       Kickstart 2027 with an official time on the iconic Uni Loop!
     </h1>
+
     <a
       href="https://www.revolutionise.com.au/auac/events/381074"
       className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
@@ -118,7 +119,7 @@ export default function Home() {
       The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10).
     </p>
     <p className="text-lg mb-4">
-      The run starts at the 0 marker on Mackinnon Parade and heads west towards Adelaide Oval for 600m. The loop then arcs left towards Adelaide Zoo, before turning left again and winding back to run parallel with War Memorial Drive. At the 1200-metre mark, there’s a gradual 200m downhill followed by a 200m climb. From this point, the final 600m is flat. The race finishes exactly where it starts, with chip timing and official results to lock in your Uni Loop PB.
+      The run starts at the 0 marker on Mackinnon Parade and heads west towards Adelaide Oval for 600m. The loop then arcs left towards Adelaide Zoo, before turning left again and winding back to run [...]
     </p>
   </div>
   <div className="md:w-1/2">
@@ -138,7 +139,7 @@ export default function Home() {
             <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
           </h2>
           <ul className="space-y-4 text-lg text-gray-800 list-disc list-inside">
-            <li>Get an official time around Adelaide’s iconic Uni Loop! Timing is provided by SA Road Runners Club & City-Bay Fun Run.</li>
+            <li>Get an official time around Adelaide's iconic Uni Loop! Timing is provided by SA Road Runners Club & City-Bay Fun Run.</li>
             <li>Runners are seeded into heats of ~10 athletes based on seed times.</li>
             <li>Each heat runs individually — one finishes before the next begins.</li>
             <li>The two fastest heats will be designated as the elite races.</li>
@@ -165,7 +166,7 @@ export default function Home() {
         <p className="text-lg text-gray-800 mb-4"><strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.</p>
         <p className="text-lg text-gray-800 mb-4"><strong>When:</strong> Friday 17th January 2027</p>
         <p className="text-lg text-gray-800"><strong>Time:</strong> First race starts at 6:00 PM</p>
-        <a href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A" target="_blank" rel="noopener noreferrer" className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md">Location</a>
+        <a href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A" target="_blank" rel="noopener noreferrer" className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounde[...]
       </section>
 
       {/* COURSE RECORDS */}
