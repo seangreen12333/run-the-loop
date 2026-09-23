@@ -127,7 +127,7 @@ export default function Home() {
       {/* HOW IT WORKS SECTION */}
       <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
         <div className="md:w-1/2 flex justify-center md:justify-start pr-6 lg:pl-20">
-          <img src="/how-it-works.jpg" alt="How It Works Visual" className="w-[80%] md:w-[70%] lg:w-[65%] rounded-lg shadow-lg" />
+          <img src="/AUA_RH_DSC00005_2.jpeg" alt="How It Works Visual" className="w-[80%] md:w-[70%] lg:w-[65%] rounded-lg shadow-lg" />
         </div>
         <div className="md:w-1/2">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-6 relative inline-block">
