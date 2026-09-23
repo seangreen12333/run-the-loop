@@ -68,20 +68,41 @@ export default function Home() {
 {/* Main Hero Section */}
 <div
   className="relative min-h-screen bg-cover bg-center"
-  style={{ backgroundImage: "url('MN_27_elite.jpeg')" }}
+  style={{ backgroundImage: "url('MN_27_stand_elite.jpg')" }}
 >
   {/* Dark overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-40 z-0"></div>
+  <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
   {/* Hero content */}
-  <main className="relative z-10 min-h-screen text-white text-center px-4">
+  <main className="relative z-10 text-white text-center pt-32 px-4">
+    <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
+      FRIDAY 15 JANUARY 2027 · 6:00 PM · Adelaide Uni Loop
+    </p>
+    <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
+      Kickstart 2027 with an official time on the iconic Uni Loop!
+    </h1>
+    <a
+      href="https://www.revolutionise.com.au/auac/events/381074"
+      className="inline-block mt-16 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
+    >
+      Sign Up Now
+    </a>
+  </main>
 
-    {/* Date / Time */}
-    <div className="pt-32">
-      <p className="text-sm md:text-lg font-semibold tracking-widest bg-black bg-opacity-40 inline-block px-5 py-2 rounded">
-        FRIDAY 15 JANUARY 2027 · 6:00 PM · Adelaide Uni Loop
-      </p>
-    </div>
+  <div className="absolute bottom-6 right-6">
+    <a
+      href="https://www.bridging-barriers.com.au/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/BB LOGO WHITE (3).png"
+        alt="Bridging Barriers Logo"
+        className="h-14 md:h-20 hover:opacity-90 transition-opacity duration-200"
+      />
+    </a>
+  </div>
+</div>
 
     {/* Main heading + button */}
     <div className="mt-[34vh] md:mt-[32vh]">
