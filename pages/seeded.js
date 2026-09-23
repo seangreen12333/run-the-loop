@@ -45,7 +45,7 @@ export default function SeededRacesPage() {
         </div>
       </section>
 
-      {/* RANDOM GIVEAWAYS & PARTNERS */}
+{/*{/* RANDOM GIVEAWAYS & PARTNERS */}
      /* <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 text-center relative inline-block mx-auto">
@@ -80,7 +80,7 @@ export default function SeededRacesPage() {
                 <p className="text-sm text-slate-600 italic">
                   Recipients must be 18+.
                 </p>
-              </div> */
+              </div> */}
 
               {/* Refreshments */}
               <div>
@@ -100,7 +100,7 @@ export default function SeededRacesPage() {
               </p>
             </div>
 
-            {/* Logos column */}
+{/* {/* Logos column */}
             /*<div className="flex flex-col items-center gap-8">
               <div className="text-center">
                 <h4 className="text-xl font-semibold text-slate-800 mb-3">
@@ -123,7 +123,7 @@ export default function SeededRacesPage() {
                 *Excludes the New FuelCell SC Elite v5.
               </p>
             </div>
-          </div> */
+          </div> */}
 
           <div className="mt-10 text-center">
             <p className="text-lg font-semibold text-[#102A43] mb-4">
