@@ -77,15 +77,15 @@ export default function EliteRacesPage() {
           {/* Text - right */}
           <div className="md:w-1/2 text-left md:text-right order-2">
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-6 relative inline-block md:ml-auto">
-              <span className="relative z-10">RunDNA 1K</span>
+              <span className="relative z-10">Your Fastest 1K</span>
               <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
             </h2>
             <p className="text-lg text-gray-800 mb-3">
               New for 2026, the first male and female elite athletes to pass the 1&nbsp;km mark in their race will each
-              receive a <strong>$150</strong> RunDNA voucher.
+              receive <strong>$150</strong>.
             </p>
             <p className="text-xs md:text-sm text-gray-700 leading-snug">
-              If two or more athletes cannot be separated at the 1&nbsp;km mark, the RunDNA 1K bonus will be awarded to
+              If two or more athletes cannot be separated at the 1&nbsp;km mark, the 'Fastest 1K' bonus will be awarded to
               the athlete who finishes highest among the tied group at the finish line.
             </p>
           </div>
