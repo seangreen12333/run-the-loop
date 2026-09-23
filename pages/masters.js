@@ -18,7 +18,7 @@ export default function MastersRacePage() {
 
       <section className="max-w-6xl mx-auto px-4 py-16 text-[#102A43] space-y-8 text-lg">
         <p>
-          Kick off 2026 with purpose and pace. This year, we're excited to be teaming up with{' '}
+          Kick off 2027 with purpose and pace. This year, we're excited to be teaming up with{' '}
           <strong>SA Masters Athletics</strong> to offer special categories for <strong>Over 35</strong> and <strong>Over 55</strong> athletes.
         </p>
 
