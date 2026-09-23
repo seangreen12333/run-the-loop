@@ -9,7 +9,7 @@ export default function MastersRacePage() {
       {/* HERO IMAGE */}
       <section
         className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('/masters-banner.jpg')" }} // Upload as masters-banner.jpg
+        style={{ backgroundImage: "url('/SM1.jpeg')" }} // Upload as masters-banner.jpg
       >
         <h1 className="text-5xl font-extrabold bg-black bg-opacity-60 px-4 py-2 rounded">
           Masters Race
