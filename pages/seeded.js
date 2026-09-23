@@ -9,8 +9,9 @@ export default function SeededRacesPage() {
 
       {/* HERO IMAGE */}
       <section
-        className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('/AUA_RH_DSC08488.jpeg')" }}
+        className="relative h-[50vh] bg-cover flex items-center justify-center text-white"
+        style={{ backgroundImage: "url('/AUA_RH_DSC08488.jpeg')",
+               backgroundPosition: "center 30%"}}
       >
         <h1 className="text-5xl font-extrabold bg-black/60 px-4 py-2 rounded">
           Seeded Races
