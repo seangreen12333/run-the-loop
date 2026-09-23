@@ -45,19 +45,19 @@ export default function SeededRacesPage() {
         </div>
       </section>
 
-{/*{/* RANDOM GIVEAWAYS & PARTNERS */}
-     /* <section className="bg-gray-50 py-16 px-4">
+  {/* RANDOM GIVEAWAYS & PARTNERS */}
+      <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 text-center relative inline-block mx-auto">
             <span className="relative z-10">Random Giveaways</span>
             <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
-          </h2> */
+          </h2>
 
-         /* <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start"> */
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start"> 
             {/* Text column */}
-           /* <div className="space-y-6 text-[#102A43] text-lg"> */
+            <div className="space-y-6 text-[#102A43] text-lg"> 
               {/* RunDNA Giveaway */}
-             /* <div>
+               <div>
                 <h3 className="text-2xl font-bold mb-2 text-teal-700">
                   RunDNA Shoe Giveaway
                 </h3>
@@ -66,10 +66,10 @@ export default function SeededRacesPage() {
                   New Balance shoes valued up to <span className="font-bold">$330 RRP</span>
                   <sup>*</sup>.
                 </p>
-              </div> */
+              </div> 
 
               {/* Oxenberry Farm Giveaway */}
-             /* <div>
+              <div>
                 <h3 className="text-2xl font-bold mb-2 text-teal-700">
                   Oxenberry Farm Wine Giveaway
                 </h3>
@@ -80,7 +80,7 @@ export default function SeededRacesPage() {
                 <p className="text-sm text-slate-600 italic">
                   Recipients must be 18+.
                 </p>
-              </div> */}
+              </div>
 
               {/* Refreshments */}
               <div>
@@ -100,8 +100,8 @@ export default function SeededRacesPage() {
               </p>
             </div>
 
-{/* {/* Logos column */}
-            /*<div className="flex flex-col items-center gap-8">
+ {/* Logos column */}
+            <div className="flex flex-col items-center gap-8">
               <div className="text-center">
                 <h4 className="text-xl font-semibold text-slate-800 mb-3">
                   Proudly partnered with:
@@ -123,7 +123,7 @@ export default function SeededRacesPage() {
                 *Excludes the New FuelCell SC Elite v5.
               </p>
             </div>
-          </div> */}
+          </div> 
 
           <div className="mt-10 text-center">
             <p className="text-lg font-semibold text-[#102A43] mb-4">
