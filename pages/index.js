@@ -65,84 +65,64 @@ export default function Home() {
           </div>
         )}
       </header>
-{/* Main Hero Section */}
-<div
-  className="relative min-h-screen bg-cover bg-center"
-  style={{ backgroundImage: "url('MN_27_stand_elite.jpg')" }}
->
-  {/* Dark overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
-  {/* Hero content */}
-  <main className="relative z-10 text-white text-center pt-32 px-4">
-    <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
-      FRIDAY 15 JANUARY 2027 · 6:00 PM · Adelaide Uni Loop
-    </p>
-    <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
-      Kickstart 2027 with an official time on the iconic Uni Loop!
-    </h1>
-    <a
-      href="https://www.revolutionise.com.au/auac/events/381074"
-      className="inline-block mt-16 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
-    >
-      Sign Up Now
-    </a>
-  </main>
+      {/* Main Hero Section */}
+      <div
+        className="relative min-h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url('MN_27_stand_elite.jpg')" }}
+      >
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
-  <div className="absolute bottom-6 right-6">
-    <a
-      href="https://www.bridging-barriers.com.au/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src="/BB LOGO WHITE (3).png"
-        alt="Bridging Barriers Logo"
-        className="h-14 md:h-20 hover:opacity-90 transition-opacity duration-200"
-      />
-    </a>
-  </div>
-</div>
+        {/* Hero content */}
+        <main className="relative z-10 text-white text-center pt-32 px-4">
+          <p className="text-sm md:text-lg font-semibold tracking-widest bg-white bg-opacity-20 inline-block px-4 py-2 rounded">
+            FRIDAY 15 JANUARY 2027 · 6:00 PM · Adelaide Uni Loop
+          </p>
+          <h1 className="text-3xl md:text-5xl font-extrabold mt-6 max-w-3xl mx-auto leading-tight">
+            Kickstart 2027 with an official time on the iconic Uni Loop!
+          </h1>
+          <a
+            href="https://www.revolutionise.com.au/auac/events/381074"
+            className="inline-block mt-16 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
+          >
+            Sign Up Now
+          </a>
+        </main>
 
-  </main>
-
-  {/* Bridging Barriers Logo */}
-  <div className="absolute bottom-6 right-6 z-20">
-    <a
-      href="https://www.bridging-barriers.com.au/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src="/BB LOGO WHITE (3).png"
-        alt="Bridging Barriers Logo"
-        className="h-14 md:h-20 hover:opacity-90 transition-opacity duration-200"
-      />
-    </a>
-  </div>
-</div>
-
-
+        <div className="absolute bottom-6 right-6">
+          <a
+            href="https://www.bridging-barriers.com.au/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/BB LOGO WHITE (3).png"
+              alt="Bridging Barriers Logo"
+              className="h-14 md:h-20 hover:opacity-90 transition-opacity duration-200"
+            />
+          </a>
+        </div>
+      </div>
 
       {/* UNI LOOP SECTION */}
-  <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
-  <div className="md:w-1/2">
-    <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">The Uni Loop</h2>
-    <p className="text-lg mb-4">
-      Adelaide's iconic Uni Loop sits just north of the River Torrens. Surrounding Park 10 it is a popular training ground for elite athletes, fun runners, and university students alike. 
-    </p>
-    <p className="text-lg mb-4">
-      The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10).
-    </p>
-    <p className="text-lg mb-4">
-      The run starts at the 0 marker on Mackinnon Parade and heads west towards Adelaide Oval for 600m. The loop then arcs left towards Adelaide Zoo, before turning left again and winding back East for a flat first 1200m. This is followed by a 200m descent then 200m  short climb leaving the runners with 600m left of flat running to complete the loop.
-    </p>
-  </div>
-  <div className="md:w-1/2">
-    <img src="/uni-loop-map.jpg" alt="Uni Loop Course Map" className="w-full rounded-lg shadow-lg" />
-  </div>
-</section>
-
+      <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
+        <div className="md:w-1/2">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-10 border-b-4 border-lime-500 inline-block">The Uni Loop</h2>
+          <p className="text-lg mb-4">
+            Adelaide's iconic Uni Loop sits just north of the River Torrens. Surrounding Park 10 it is a popular training ground for elite athletes, fun runners, and university students alike.
+          </p>
+          <p className="text-lg mb-4">
+            The Uni Loop run is a 'frypan-shaped' loop of 2.2km around Warnpangga (Park 10).
+          </p>
+          <p className="text-lg mb-4">
+            The run starts at the 0 marker on Mackinnon Parade and heads west towards Adelaide Oval for 600m. The loop then arcs left towards Adelaide Zoo, before turning left again and winding back East for a flat first 1200m. This is followed by a 200m descent then 200m  short climb leaving the runners with 600m left of flat running to complete the loop.
+          </p>
+        </div>
+        <div className="md:w-1/2">
+          <img src="/uni-loop-map.jpg" alt="Uni Loop Course Map" className="w-full rounded-lg shadow-lg" />
+        </div>
+      </section>
 
       {/* HOW IT WORKS SECTION */}
       <section className="bg-white py-20 px-6 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
@@ -162,7 +142,7 @@ export default function Home() {
             <li>All finishers receive a custom finisher pin.</li>
             <li>With prizes awarded to:
               <ul className="list-disc list-inside ml-6 mt-2">
-                 <li>Top male and female in each race</li>
+                <li>Top male and female in each race</li>
                 <li>Top 3 male and female elite athletes</li>
                 <li>Fastest male and female athlete to the 1000 m mark</li>
                 <li>Top 3 U18 male and female athletes</li>
@@ -175,69 +155,68 @@ export default function Home() {
         </div>
       </section>
 
-     {/* WHERE & WHEN SECTION */}
-<section className="bg-gray-50 py-20 px-6 max-w-5xl mx-auto text-center">
-  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 relative inline-block">
-    <span className="relative z-10">Where & When?</span>
-    <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
-  </h2>
+      {/* WHERE & WHEN SECTION */}
+      <section className="bg-gray-50 py-20 px-6 max-w-5xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 relative inline-block">
+          <span className="relative z-10">Where & When?</span>
+          <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
+        </h2>
 
-  <p className="text-lg text-gray-800 mb-4">
-    <strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.
-  </p>
+        <p className="text-lg text-gray-800 mb-4">
+          <strong>Where:</strong> Adelaide Uni Loop — starting at the 0-metre mark on the eastern corner of Mackinnon Parade.
+        </p>
 
-  <p className="text-lg text-gray-800 mb-4">
-    <strong>When:</strong> Friday 15th January 2027
-  </p>
+        <p className="text-lg text-gray-800 mb-4">
+          <strong>When:</strong> Friday 15th January 2027
+        </p>
 
-  <p className="text-lg text-gray-800">
-    <strong>Time:</strong> First race starts at 6:00 PM
-  </p>
+        <p className="text-lg text-gray-800">
+          <strong>Time:</strong> First race starts at 6:00 PM
+        </p>
 
-  <a
-    href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
-  >
-    Location
-  </a>
-</section>
+        <a
+          href="https://maps.app.goo.gl/tkZvpiswwU1qNcp1A"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-6 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-3 px-6 rounded-lg text-md"
+        >
+          Location
+        </a>
+      </section>
 
-{/* COURSE RECORDS */}
-<section className="bg-white py-20 px-6 max-w-7xl mx-auto text-center">
-  <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] border-b-4 border-lime-500 inline-block pb-2 mb-10">
-    Course Records
-  </h2>
+      {/* COURSE RECORDS */}
+      <section className="bg-white py-20 px-6 max-w-7xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] border-b-4 border-lime-500 inline-block pb-2 mb-10">
+          Course Records
+        </h2>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-    <img
-      src="/record1.jpg"
-      alt="Female Record"
-      className="w-1/2 mx-auto rounded shadow-md"
-    />
-    <img
-      src="/record2.jpg"
-      alt="Male Record"
-      className="w-1/2 mx-auto rounded shadow-md"
-    />
-  </div>
-</section>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <img
+            src="/record1.jpg"
+            alt="Female Record"
+            className="w-1/2 mx-auto rounded shadow-md"
+          />
+          <img
+            src="/record2.jpg"
+            alt="Male Record"
+            className="w-1/2 mx-auto rounded shadow-md"
+          />
+        </div>
+      </section>
 
-{/* COMPETITION RULES LINK */}
-<section className="bg-white pb-6 px-6 max-w-7xl mx-auto text-center">
-  <p className="text-sm text-gray-600">
-    <a
-      href="/Run_The_loop_prizes.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="underline hover:text-[#102A43]"
-    >
-      Competition rules here
-    </a>
-  </p>
-</section>
-
+      {/* COMPETITION RULES LINK */}
+      <section className="bg-white pb-6 px-6 max-w-7xl mx-auto text-center">
+        <p className="text-sm text-gray-600">
+          <a
+            href="/Run_The_loop_prizes.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-[#102A43]"
+          >
+            Competition rules here
+          </a>
+        </p>
+      </section>
 
       {/* MAJOR SPONSOR */}
       <section className="bg-gray-50 py-20 px-6">
@@ -283,75 +262,72 @@ export default function Home() {
         </div>
       </section>
 
-    
+      {/* SPONSORS */}
+      <section className="bg-[#102A43] py-20 px-6 overflow-hidden">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-white text-center mb-10 border-b-4 border-lime-500 inline-block">
+          Sponsors & Partners
+        </h2>
 
-    {/* SPONSORS */}
-<section className="bg-[#102A43] py-20 px-6 overflow-hidden">
-  <h2 className="text-3xl md:text-4xl font-extrabold text-white text-center mb-10 border-b-4 border-lime-500 inline-block">
-    Sponsors & Partners
-  </h2>
+        {/* Scrolling marquee */}
+        <div className="relative w-full overflow-hidden">
+          <div className="animate-scroll inline-flex w-max items-center gap-16 will-change-transform">
+            {/* duplicate set for seamless loop */}
+            {[...Array(2)].map((_, i) => (
+              <div key={i} className="inline-flex items-center gap-16">
+                <a href="https://www.athleticssa.com.au" target="_blank" rel="noreferrer">
+                  <img src="/sponsor1.png" alt="Athletics SA"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
 
-  {/* Scrolling marquee */}
-  <div className="relative w-full overflow-hidden">
-    <div className="animate-scroll inline-flex w-max items-center gap-16 will-change-transform">
-      {/* duplicate set for seamless loop */}
-      {[...Array(2)].map((_, i) => (
-        <div key={i} className="inline-flex items-center gap-16">
-          <a href="https://www.athleticssa.com.au" target="_blank" rel="noreferrer">
-            <img src="/sponsor1.png" alt="Athletics SA"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://www.adelaideunisport.com.au" target="_blank" rel="noreferrer">
+                  <img src="/sponsor2.png" alt="Adelaide Uni Sport"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
 
-          <a href="https://www.adelaideunisport.com.au" target="_blank" rel="noreferrer">
-            <img src="/sponsor2.png" alt="Adelaide Uni Sport"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://www.rundna.com.au" target="_blank" rel="noreferrer">
+                  <img src="/rundna.png" alt="RunDNA"
+                       className="h-20 md:h-24 w-auto object-contain shrink-0" />
+                </a>
 
-          <a href="https://www.rundna.com.au" target="_blank" rel="noreferrer">
-            <img src="/rundna.png" alt="RunDNA"
-                 className="h-20 md:h-24 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://revolutionise.com.au/auathletics" target="_blank" rel="noreferrer">
+                  <img src="/sponsor3.png" alt="Adelaide University Athletics Club"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
 
-          <a href="https://revolutionise.com.au/auathletics" target="_blank" rel="noreferrer">
-            <img src="/sponsor3.png" alt="Adelaide University Athletics Club"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://www.runningsa.com.au" target="_blank" rel="noreferrer">
+                  <img src="/sponsor4.png" alt="Running SA"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
 
-          <a href="https://www.runningsa.com.au" target="_blank" rel="noreferrer">
-            <img src="/sponsor4.png" alt="Running SA"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://oxenberry.com/" target="_blank" rel="noreferrer">
+                  <img src="/ox.jpg" alt="Oxenberry Farm Wines"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
 
-          <a href="https://oxenberry.com/" target="_blank" rel="noreferrer">
-            <img src="/ox.jpg" alt="Oxenberry Farm Wines"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://runthetan.net/" target="_blank" rel="noreferrer">
+                  <img src="/RTT1.png" alt="Run The Tan"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
 
-          <a href="https://runthetan.net/" target="_blank" rel="noreferrer">
-            <img src="/RTT1.png" alt="Run The Tan"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://www.samastersathletics.org.au" target="_blank" rel="noreferrer">
+                  <img src="/sponsor5.png" alt="SA Masters Athletics"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
 
-          <a href="https://www.samastersathletics.org.au" target="_blank" rel="noreferrer">
-            <img src="/sponsor5.png" alt="SA Masters Athletics"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
-                   
-          <a href="https://exurbia.com.au/" target="_blank" rel="noreferrer">
-            <img src="Exurbia+tag_pos_RGB.png" alt="Excurbia"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
-         <a href="https://www.onerunning.com.au/" target="_blank" rel="noreferrer">
-            <img src="/OneRunningLogo.png" alt="One Running"
-                 className="h-24 md:h-28 w-auto object-contain shrink-0" />
-          </a>
+                <a href="https://exurbia.com.au/" target="_blank" rel="noreferrer">
+                  <img src="Exurbia+tag_pos_RGB.png" alt="Excurbia"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
+
+                <a href="https://www.onerunning.com.au/" target="_blank" rel="noreferrer">
+                  <img src="/OneRunningLogo.png" alt="One Running"
+                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
-      ))}
-    </div>
-  </div>
-</section>
-
-
+      </section>
 
       {/* FOOTER */}
       <footer className="bg-[#102A43] text-white py-12 px-6">
