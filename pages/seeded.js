@@ -21,7 +21,7 @@ export default function SeededRacesPage() {
       {/* MAIN COPY */}
       <section className="max-w-6xl mx-auto px-4 py-16 text-[#102A43] text-lg">
         <p className="mb-4 text-center">
-          Start the new year with a lap of the legendary Uni Loop.
+          Start the new year with a lap of The Adelaide Uni Loop!
         </p>
 
         <div className="max-w-3xl mx-auto space-y-4">
@@ -31,10 +31,11 @@ export default function SeededRacesPage() {
           </p>
 
           <ul className="list-disc list-inside space-y-2">
-            <li>Waves of roughly 10 runners based on seed time.</li>
+            <li>Waves of 15-20 runners based on seed time.</li>
             <li>Racing alongside runners of similar ability.</li>
             <li>Ideal setting for a strong hit out or a new personal best.</li>
             <li>Every finisher receives a <strong>Run the Loop finisher pin</strong>.</li>
+            <li>The top three male and females in each race will receive a <strong> Run The Loop Medal </strong>.</li>
           </ul>
 
           <p>
@@ -45,7 +46,7 @@ export default function SeededRacesPage() {
       </section>
 
       {/* RANDOM GIVEAWAYS & PARTNERS */}
-      <section className="bg-gray-50 py-16 px-4">
+     /* <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 text-center relative inline-block mx-auto">
             <span className="relative z-10">Random Giveaways</span>
@@ -54,9 +55,9 @@ export default function SeededRacesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             {/* Text column */}
-            <div className="space-y-6 text-[#102A43] text-lg">
+           /* <div className="space-y-6 text-[#102A43] text-lg">
               {/* RunDNA Giveaway */}
-              <div>
+             /* <div>
                 <h3 className="text-2xl font-bold mb-2 text-teal-700">
                   RunDNA Shoe Giveaway
                 </h3>
@@ -68,7 +69,7 @@ export default function SeededRacesPage() {
               </div>
 
               {/* Oxenberry Farm Giveaway */}
-              <div>
+             /* <div>
                 <h3 className="text-2xl font-bold mb-2 text-teal-700">
                   Oxenberry Farm Wine Giveaway
                 </h3>
@@ -87,7 +88,7 @@ export default function SeededRacesPage() {
                   On-the-day Refreshments
                 </h3>
                 <p className="text-slate-800">
-                  Refreshments will be available, including fresh fruit, a BBQ{' '}
+                 Entry comes with free refreshments, including fresh fruit, a BBQ{' '}
                   <span className="italic">(pending fire restrictions)</span>, and everyone&apos;s
                   favourite chocolate milk.
                 </p>
@@ -100,7 +101,7 @@ export default function SeededRacesPage() {
             </div>
 
             {/* Logos column */}
-            <div className="flex flex-col items-center gap-8">
+            /*<div className="flex flex-col items-center gap-8">
               <div className="text-center">
                 <h4 className="text-xl font-semibold text-slate-800 mb-3">
                   Proudly partnered with:
@@ -122,14 +123,14 @@ export default function SeededRacesPage() {
                 *Excludes the New FuelCell SC Elite v5.
               </p>
             </div>
-          </div>
+          </div> */
 
           <div className="mt-10 text-center">
             <p className="text-lg font-semibold text-[#102A43] mb-4">
-              Ready to begin 2026 the right way?
+              Ready to begin 2027 the right way?
             </p>
             <a
-              href="https://www.revolutionise.com.au/auac/events/303529"
+              href="https://www.revolutionise.com.au/auac/events/381074"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#00B28A] hover:bg-[#00926f] text-white font-bold py-3 px-8 rounded-lg text-lg"
