@@ -9,7 +9,7 @@ export default function EliteRacesPage() {
       {/* HERO IMAGE */}
       <section
         className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('/preso.jpeg')" }}
+        style={{ backgroundImage: "url('/MN_27_elite.jpeg')" }}
       >
         <h1 className="text-5xl font-extrabold bg-black bg-opacity-60 px-4 py-2 rounded">
           Elite Races
