@@ -13,7 +13,7 @@ export default function ResultsPage() {
       {/* HERO IMAGE */}
       <section
         className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('/results-banner.jpg')" }}
+        style={{ backgroundImage: "url('/Lightroom-5871.jpeg')" }}
       >
         <h1 className="text-5xl font-extrabold bg-black bg-opacity-60 px-4 py-2 rounded">
           Results
