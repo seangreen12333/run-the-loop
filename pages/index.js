@@ -84,7 +84,7 @@ export default function Home() {
           </h1>
           <a
             href="https://www.revolutionise.com.au/auac/events/381074"
-            className="inline-block mt-16 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
+            className="inline-block mt-24 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg"
           >
             Sign Up Now
           </a>
