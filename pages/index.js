@@ -104,22 +104,6 @@ export default function Home() {
   </div>
 </div>
 
-    {/* Main heading + button */}
-    <div className="mt-[34vh] md:mt-[32vh]">
-      <h1 className="text-3xl md:text-5xl font-extrabold max-w-3xl mx-auto leading-tight drop-shadow-lg">
-        Kickstart 2027 with an official
-        <br className="hidden md:block" />
-        time on the iconic Uni Loop!
-      </h1>
-
-      <a
-        href="https://www.revolutionise.com.au/auac/events/381074"
-        className="inline-block mt-8 bg-[#00B28A] hover:bg-[#009e7a] text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
-      >
-        Sign Up Now
-      </a>
-    </div>
-
   </main>
 
   {/* Bridging Barriers Logo */}
