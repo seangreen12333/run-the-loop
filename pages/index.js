@@ -68,7 +68,7 @@ export default function Home() {
 {/* Main Hero Section */}
 <div
   className="relative min-h-screen bg-cover bg-center"
-  style={{ backgroundImage: "url('/background.jpg')" }}
+  style={{ backgroundImage: "url('MN_27_stand_elite.jpeg')" }}
 >
   {/* Dark overlay */}
   <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
