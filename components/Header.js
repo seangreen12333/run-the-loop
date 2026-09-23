@@ -24,12 +24,12 @@ export default function Header() {
         <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
         <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
         <a
-          href="https://www.bridging-barriers.com.au/"
+          href="https://www.revolutionise.com.au/auac/events/381074"
           target="_blank"
           rel="noopener noreferrer"
           className="border-2 border-[#00B28A] text-[#00B28A] hover:bg-[#00B28A] hover:text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200 shadow-sm"
         >
-          Bridging Barriers
+          Sign Up Here
         </a>
       </nav>
 
