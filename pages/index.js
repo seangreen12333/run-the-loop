@@ -120,7 +120,7 @@ export default function Home() {
           </p>
         </div>
         <div className="md:w-1/2">
-          <img src="/loop.jpg" alt="Uni Loop Course Map" className="w-full rounded-lg shadow-lg" />
+          <img src="/loop.jpeg" alt="Uni Loop Course Map" className="w-full rounded-lg shadow-lg" />
         </div>
       </section>
 
