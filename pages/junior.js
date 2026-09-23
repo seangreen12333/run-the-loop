@@ -9,7 +9,7 @@ export default function JuniorRacePage() {
       {/* HERO IMAGE */}
       <section
         className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('/junior-banner.jpg')" }}
+        style={{ backgroundImage: "url('/WMN_27_elite.jpeg')" }}
       >
         <h1 className="text-5xl font-extrabold bg-black bg-opacity-60 px-4 py-2 rounded">
           Junior Race
