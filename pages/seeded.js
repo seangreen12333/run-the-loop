@@ -51,11 +51,11 @@ export default function SeededRacesPage() {
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-8 text-center relative inline-block mx-auto">
             <span className="relative z-10">Random Giveaways</span>
             <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
-          </h2>
+          </h2> */
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+         /* <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start"> */
             {/* Text column */}
-           /* <div className="space-y-6 text-[#102A43] text-lg">
+           /* <div className="space-y-6 text-[#102A43] text-lg"> */
               {/* RunDNA Giveaway */}
              /* <div>
                 <h3 className="text-2xl font-bold mb-2 text-teal-700">
@@ -66,7 +66,7 @@ export default function SeededRacesPage() {
                   New Balance shoes valued up to <span className="font-bold">$330 RRP</span>
                   <sup>*</sup>.
                 </p>
-              </div>
+              </div> */
 
               {/* Oxenberry Farm Giveaway */}
              /* <div>
@@ -80,7 +80,7 @@ export default function SeededRacesPage() {
                 <p className="text-sm text-slate-600 italic">
                   Recipients must be 18+.
                 </p>
-              </div>
+              </div> */
 
               {/* Refreshments */}
               <div>
