@@ -71,7 +71,7 @@ export default function EliteRacesPage() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
           {/* RunDNA logo - left */}
           <div className="md:w-1/2 flex justify-center order-1">
-            <img src="/rundna.png" alt="RunDNA logo" className="max-h-40 w-auto object-contain" />
+            <img src="/AUA_RH_DSC09947.jpeg" alt="RunDNA logo" className="max-h-40 w-auto object-contain" />
           </div>
 
           {/* Text - right */}
