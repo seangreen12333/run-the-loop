@@ -66,12 +66,17 @@ export default function EliteRacesPage() {
         </div>
       </section>
 
-      {/* RUNDNA 1K */}
+           {/* RUNDNA 1K */}
       <section className="bg-white py-20 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          {/* RunDNA logo - left */}
-          <div className="md:w-1/2 flex justify-center order-1">
-            <img src="/AUA_RH_DSC09947.jpeg" alt="RunDNA logo" className="max-h-40 w-auto object-contain" />
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+          
+          {/* Image - left */}
+          <div className="md:w-1/2 flex justify-center md:justify-start pr-6 lg:pl-20 order-1">
+            <img
+              src="/AUA_RH_DSC09947.jpeg"
+              alt="Your Fastest 1K"
+              className="w-[80%] md:w-[70%] lg:w-[65%] rounded-lg shadow-lg"
+            />
           </div>
 
           {/* Text - right */}
@@ -80,10 +85,12 @@ export default function EliteRacesPage() {
               <span className="relative z-10">Your Fastest 1K</span>
               <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
             </h2>
+
             <p className="text-lg text-gray-800 mb-3">
               Returning for 2027, the first male and female elite athletes to pass the 1&nbsp;km mark in their race will each
               receive <strong>$150</strong>.
             </p>
+
             <p className="text-xs md:text-sm text-gray-700 leading-snug">
               If two or more athletes cannot be separated at the 1&nbsp;km mark, the 'Fastest 1K' bonus will be awarded to
               the athlete who finishes highest among the tied group at the finish line.
@@ -92,48 +99,53 @@ export default function EliteRacesPage() {
         </div>
       </section>
 
-      {/* RUN THE TAN ENTRY */}
-      <section className="bg-gray-50 py-20 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          {/* Text - left */}
-          <div className="md:w-1/2 text-left">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-6 relative inline-block">
-              <span className="relative z-10">Run The Tan Entry</span>
-              <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
-            </h2>
-            <p className="text-lg text-gray-800 mb-3">
-              After conquering the Loop, our winners will get the chance to take on The Tan. Run The Tan have offered
-              free entry to both the elite male and elite female winners to their 2026 event on{' '}
-              <strong>Sunday 26th April 2026</strong>.
-            </p>
-            <p className="text-lg text-gray-800 mb-3">
-              This is another great run around an iconic part of Melbourne. It is a charity event that this year is
-              raising funds for men&apos;s mental health.
-            </p>
-            <p className="text-lg text-gray-800">
-              For more information, head to their website{' '}
-              <a
-                href="https://runthetan.net/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#00B28A] font-semibold hover:underline"
-              >
-                here
-              </a>
-              .
-            </p>
-          </div>
+      {/* RUN THE TAN ENTRY - CURRENTLY HIDDEN */}
+      {false && (
+        <section className="bg-gray-50 py-20 px-6">
+          <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
 
-          {/* Run The Tan logo - right */}
-          <div className="md:w-1/2 flex justify-center">
-            <img
-              src="/RTT_2026.png"
-              alt="Run The Tan 2026 logo"
-              className="max-h-40 w-auto object-contain"
-            />
+            <div className="md:w-1/2 text-left">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-[#102A43] mb-6 relative inline-block">
+                <span className="relative z-10">Run The Tan Entry</span>
+                <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
+              </h2>
+
+              <p className="text-lg text-gray-800 mb-3">
+                After conquering the Loop, our winners will get the chance to take on The Tan. Run The Tan have offered
+                free entry to both the elite male and elite female winners to their 2026 event on{' '}
+                <strong>Sunday 26th April 2026</strong>.
+              </p>
+
+              <p className="text-lg text-gray-800 mb-3">
+                This is another great run around an iconic part of Melbourne. It is a charity event that this year is
+                raising funds for men&apos;s mental health.
+              </p>
+
+              <p className="text-lg text-gray-800">
+                For more information, head to their website{' '}
+                <a
+                  href="https://runthetan.net/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#00B28A] font-semibold hover:underline"
+                >
+                  here
+                </a>
+                .
+              </p>
+            </div>
+
+            <div className="md:w-1/2 flex justify-center">
+              <img
+                src="/RTT_2026.png"
+                alt="Run The Tan 2026 logo"
+                className="max-h-40 w-auto object-contain"
+              />
+            </div>
+
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* COURSE RECORD BONUS */}
       <section className="bg-white py-20 px-6">
