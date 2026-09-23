@@ -81,7 +81,7 @@ export default function EliteRacesPage() {
               <span className="absolute left-0 bottom-0 w-full h-1 bg-lime-500 z-0 rounded"></span>
             </h2>
             <p className="text-lg text-gray-800 mb-3">
-              New for 2026, the first male and female elite athletes to pass the 1&nbsp;km mark in their race will each
+              Returning for 2027, the first male and female elite athletes to pass the 1&nbsp;km mark in their race will each
               receive <strong>$150</strong>.
             </p>
             <p className="text-xs md:text-sm text-gray-700 leading-snug">
@@ -166,7 +166,7 @@ export default function EliteRacesPage() {
               <strong>5:52</strong>.
             </p>
             <p className="text-lg text-gray-800">
-              Breaking one of these records will result in an extra <strong>$100</strong> bonus for the first athlete
+              Breaking one of these records will result in an extra <strong>$150</strong> bonus for the first athlete
               who goes under the existing mark.
             </p>
           </div>
