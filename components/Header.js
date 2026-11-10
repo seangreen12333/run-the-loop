@@ -60,7 +60,7 @@ export default function Header() {
           <Link href="/seeded" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
           <Link href="/masters" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Masters Race</span></Link>
           <Link href="/junior" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Junior Race</span></Link>
-          <Link href="/junior" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Little Athletics</span></Link>
+          <Link href="/little" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Little Athletics</span></Link>
           <Link href="/results" onClick={() => setIsOpen(false)}><span className="hover:text-[#00B28A]">Results</span></Link>
         </div>
       )}
