@@ -22,6 +22,7 @@ export default function Header() {
         <Link href="/seeded"><span className="hover:text-[#00B28A]">Seeded Races</span></Link>
         <Link href="/masters"><span className="hover:text-[#00B28A]">Masters Race</span></Link>
         <Link href="/junior"><span className="hover:text-[#00B28A]">Junior Race</span></Link>
+        <Link href="/little-athletics"><span className="hover:text-[#00B28A]">Little Athletics</span></Link>
         <Link href="/results"><span className="hover:text-[#00B28A]">Results</span></Link>
         <a
           href="https://www.revolutionise.com.au/auac/events/381074"
