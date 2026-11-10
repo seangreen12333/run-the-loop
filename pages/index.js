@@ -303,7 +303,7 @@ export default function Home() {
 
                 <a href="https://salaa.org.au/" target="_blank" rel="noreferrer">
                   <img src="/little-athletics-sa-logo.png" alt="Little Athletics SA"
-                       className="h-24 md:h-28 w-auto object-contain shrink-0" />
+                       className="h-26 md:h-30 w-auto object-contain shrink-0" />
                 </a>
 
                 <a href="https://www.samastersathletics.org.au" target="_blank" rel="noreferrer">
