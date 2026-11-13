@@ -94,18 +94,35 @@ export default function LittleAthleticsPage() {
           </div>
         </section>
 
-        {/* PARTICIPANT INCLUSIONS */}
-        <section className="pt-8 border-t border-gray-200">
-          <h2 className="text-2xl font-bold mb-4">
-            Every Participant Receives
-          </h2>
+        
+{/* PARTICIPANT INCLUSIONS */}
+<section className="pt-8 border-t border-gray-200">
+  <h2 className="text-2xl font-bold mb-4">
+    Every Participant Receives
+  </h2>
 
-          <ul className="list-disc list-inside space-y-2">
-            <li>An official chip-timed result</li>
-            <li>A Run The Loop finisher pin</li>
-            <li>A free sausage in bread from the BBQ</li>
-          </ul>
-        </section>
+  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+
+    {/* PARTICIPANT BENEFITS */}
+    <ul className="list-disc list-inside space-y-2 flex-1">
+      <li>An official chip-timed result</li>
+      <li>A Run The Loop finisher pin</li>
+      <li>A free sausage in bread from the BBQ</li>
+      <li>Juice provided by Nippy's</li>
+    </ul>
+
+    {/* NIPPY'S LOGO */}
+    <div className="flex justify-center md:justify-end md:w-1/3">
+      <img
+        src="/Nippy.jpg"
+        alt="Nippy's Logo"
+        className="w-40 md:w-52 max-h-36 object-contain"
+      />
+    </div>
+
+  </div>
+</section>
+
 
         {/* PRIZES */}
         <section className="pt-8 border-t border-gray-200">
