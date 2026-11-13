@@ -41,9 +41,6 @@ export default function JuniorRacePage() {
 
             <ul className="list-disc list-inside space-y-2">
               <li><strong>1st place:</strong> $100<sup>*</sup></li>
-              <li className="list-none pl-6 text-base text-[#102A43]">
-                <span className="font-semibold">Plus:</span> 1st place gets to design their own custom One Running singlet.
-              </li>
               <li><strong>2nd place:</strong> $50<sup>*</sup></li>
               <li><strong>3rd place:</strong> $30<sup>*</sup></li>
             </ul>
@@ -53,17 +50,7 @@ export default function JuniorRacePage() {
             </p>
           </div>
 
-          {/* RIGHT: LOGO */}
-          <div className="flex justify-center md:justify-end">
-            <div className="bg-white rounded-2xl shadow-sm p-6 w-full max-w-sm flex items-center justify-center">
-              <img
-                src="/OneRunningLogo.png"
-                alt="One Running Logo"
-                className="max-h-40 w-auto object-contain"
-              />
-            </div>
-          </div>
-        </div>
+    
 
         <p className="mt-10">
           Whether you’re a rising star or just want to be part of the excitement, we’d love to see you out there. Bring your teammates, and your supporters; it's going to be a great afternoon.
